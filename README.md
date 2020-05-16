@@ -74,6 +74,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+1 - Navbar code taken from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navs/#horizontal-alignment)
+    - This was used to create the menu options which are aligned to the right.
+
 
 ## Testing
 
