@@ -8,6 +8,7 @@ body{
     font-family: 'Raleway', sans-serif;    
 }
 
+
 /* ------------------------------------------------------ Logo */
 
 .logo-text{
@@ -39,7 +40,7 @@ body{
 
 .nav-link:hover{
     color: #545454;
-    text-decoration: underline;
+    border-bottom: 1px solid #545454;
 }
 
 
@@ -50,5 +51,39 @@ body{
   margin-left: 0;
 }
 
+
+
 /* ------------------------------------------------------ Homepage */
 
+/* ------------------------------------------------------ Footer*/
+
+.footer-background{
+    margin-top: 40px;
+    background-color: #545454;
+    min-height: 200px;
+    border: 1px solid red;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 10px;
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer-text li{    
+    display: inline;
+}
+
+.footer-text i{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+}

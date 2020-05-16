@@ -69,6 +69,9 @@ CSS
 [Google-Fonts](https://fonts.google.com/)
     - I will be using a range of fonts from Google to make the page more visually appealing.
 
+[Fontawsome](https://fontawesome.com/)
+    - I will use Fontawsome for the pictograms on my site.
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
