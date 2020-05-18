@@ -1,54 +1,57 @@
 /* ------------------------------------------------------ Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700&display=swap");
 
-
-
-body{
-    font-family: 'Raleway', sans-serif;    
+body {
+  font-family: "Raleway", sans-serif;
 }
-
 
 /* ------------------------------------------------------ Logo */
 
-.logo-text{
-    font-family:'Luckiest Guy', cursive;
-    color: #545454;
-    text-decoration: none;
-    float: left;
-    padding: 20px;    
-    font-size: 250%;
+.logo-text {
+  font-family: "Luckiest Guy", cursive;
+  color: #545454;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  font-size: 250%;
 }
 
-.logo-o{
-    color: red;
+.logo-o {
+  color: red;
 }
 
 /* ------------------------------------------------------ Menu */
 
-.nav{
-    padding: 20px;
-    list-style-type: none;
-    color: #545454;
+.nav {
+  padding: 20px;
+  list-style-type: none;
+  color: #545454;
 }
 
-.nav-link{
-    color: #545454;
-    text-decoration: none;
-    font-weight: 700;
-    border: 1px solid white;
-    border-radius: 20px;
+.nav-link {
+  color: #545454;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-.nav-link:hover{
-    color: #545454;
-    text-decoration: none;
-    font-weight: 700;
-    border: 1px solid #545454;   
-    
+.nav-link .active {
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid red;
 }
 
-
+.nav-link:hover {
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid red;
+  transition-duration: 0.5s;
+}
 
 /* ------------------------------------------------------ Container */
 
@@ -57,57 +60,151 @@ body{
   margin-left: 0;
 }
 
-
-
 /* ------------------------------------------------------ Homepage */
+
+.cricket-ball {
+  background-image: url("/assets/images/ball_bw.jpg");
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.welcome-text {
+  font-size: 250%;
+  font-weight: 700;
+  padding-top: 100px;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+
+.welcome-paragraph {
+  padding-right: 20px;
+  padding-top: 100px;
+  text-align: justify;
+}
+
+.center-text {
+  font-weight: 700;
+}
+
+.row-element {
+  padding: 10px;
+  background-color: #545454;
+  color: white;
+  text-align: center;
+  min-height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.row-element-no-background {
+  padding: 10px;
+  color: #545454;
+  text-align: center;
+  min-height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row-element-no-background p {
+  padding: 40px 20px 20px 20px;
+  text-align: justify;
+}
+
+.homepage-icons {
+  color: white;
+  font-size: 300%;
+  padding-top: 20px;
+  
+}
+
+/* ------------------------------------------------------ Wellbeing Boxes*/
+
+.social {
+  background-image: url("/assets/images/social_bw.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mental {
+  background-image: url("/assets/images/mental_bw.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.physical {
+  background-image: url("/assets/images/physical_bw.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.icons-text {
+  color: #545454;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: bold;
+}
 
 /* ------------------------------------------------------ Footer*/
 
-.row-element{
-            padding: 10px;
-            background-color: #545454;
-            color: white;
-            text-align: center;
-            min-height: 200px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border: 1px solid white;
-            border-radius: 50px;
+.footer-element {
+  padding: 10px;
+  background-color: #545454;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
-.footer-element{
-            padding: 10px;
-            background-color: #545454;
-            color: white;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border: 1px solid white;
-            border-radius: 50px;
+.footer-text {
+  text-align: center;
+  list-style-type: none;
+  padding: 2px;
+  text-decoration: none;
 }
 
-.footer-text{
-    text-align: center;
-    list-style-type: none;
-    padding: 2px;
-    text-decoration: none;
-    
+.footer-text li {
+  display: inline;
 }
 
-.footer-text li{    
-    display: inline;
+.footer-text i {
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
-.footer-text i{
-    text-decoration: none;
-    color: white;
-    font-size: 100%;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid white;
-    border-radius: 50%;
+.footer-text i:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 100%;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid red;
+  border-radius: 50%;
+  transition-duration: 0.5s;
 }
-
-
-
-
