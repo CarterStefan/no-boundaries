@@ -5,6 +5,9 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+.uppercase{
+    text-transform: uppercase;
+}
 
 /* ------------------------------------------------------ Colors */
 
@@ -29,6 +32,14 @@ body {
 .Copy-of-Copy-of-cricket-4-hsla { color: hsla(116, 100, 27, 1); }
 .Copy-of-Copy-of-cricket-5-hsla { color: hsla(358, 100, 31, 1); }
 
+/* ------------------------------------------------------ Container */
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 
 /* ------------------------------------------------------ Logo */
 
@@ -37,27 +48,40 @@ body {
   color: #545454;
   text-decoration: none;
   float: left;
-  padding: 20px;
-  font-size: 250%;
+  font-size: 200%;
 }
 
 .logo-o {
   color: red;
 }
 
-/* ------------------------------------------------------ Menu */
+.logo-text:hover {
+  font-family: "Luckiest Guy", cursive;
+  color: #545454;
+  text-decoration: none;
+  float: left;
+  font-size: 200%;
+}
+
+.logo-o:hover {
+  color: red;
+}
+
+/* ------------------------------------------------------ Navbar */
 
 .nav {
   padding: 20px;
   list-style-type: none;
   color: #545454;
+  float: right;
 }
 
 .nav-link {
+
   color: #545454;
   text-decoration: none;
   font-weight: 700;
-  border: 1px solid white;
+  border: 1px solid transparent;
   border-radius: 20px;
   padding: 10px;
 }
@@ -77,149 +101,17 @@ body {
   transition-duration: 0.5s;
 }
 
-/* ------------------------------------------------------ Container */
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+/* ------------------------------------------------------ Hero Image */
+
+/* ------------------------------------------------------ Introduction  */
+
+.introduction-paragraph{
+
 }
 
-/* ------------------------------------------------------ Homepage */
+/* ------------------------------------------------------ Well Being */
 
-.cricket-ball {
-  background-image: url("/assets/images/ball_color.jpg");
-  background-color: #cccccc;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.welcome-text {
-  font-size: 250%;
-  font-weight: 700;
-  padding-top: 100px;
-  letter-spacing: 0.1em;
-  text-decoration: underline;
-}
-
-.welcome-paragraph {
-  padding-right: 20px;
-  padding-top: 100px;
-  text-align: justify;
-  font-weight: bold;
-}
-
-.center-text {
-  font-weight: 700;
-}
-
-.row-element {
-  padding: 10px;
-  background-color: #545454;
-  color: white;
-  text-align: center;
-  min-height: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid white;
-  border-radius: 50px;
-}
-
-.row-element-no-background {
-  padding: 10px;
-  color: #545454;
-  text-align: center;
-  min-height: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.row-element-no-background p {
-  padding: 40px 20px 20px 20px;
-  text-align: justify;
-}
-
-.homepage-icons {
-  color: white;
-  font-size: 300%;
-  padding-top: 20px;
-}
-
-/* ------------------------------------------------------ Wellbeing Boxes*/
-
-.social {
-  background-image: url("/assets/images/social_bw.jpg");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.mental {
-  background-image: url("/assets/images/mental_bw.jpg");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.physical {
-  background-image: url("/assets/images/physical_bw.jpg");
-  background-color: #cccccc;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.physical i {
-  text-decoration: none;
-  background-color: white;
-  color: #545454;
-  font-size: 300%;
-  margin: 2%;
-  padding: 2%;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
-.mental i {
-  text-decoration: none;
-  background-color: white;
-  color: #545454;
-  font-size: 300%;
-  margin: 2%;
-  padding: 2%;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
-.social i {
-  text-decoration: none;
-  background-color: white;
-  color: #545454;
-  font-size: 300%;
-  margin: 2%;
-  padding: 2%;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
-.icons-text {
-  color: #545454;
-  margin: 20px;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 50px;
-  font-weight: bold;
-}
 
 /* ------------------------------------------------------ Footer*/
 
@@ -266,78 +158,3 @@ body {
   transition-duration: 0.5s;
 }
 
-/* ------------------------------------------------------ Testing*/
-
-.row-element-icon-physical {
-  padding: 10px;
-  color: #A20004;
-  text-align: center;
-  min-height: 150px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 900%;
-}
-
-.row-element-icon-mental {
-  padding: 10px;
-  color: #053D70;
-  text-align: center;
-  min-height: 150px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 900%;
-}
-
-.row-element-icon-social {
-  padding: 10px;
-  color: #088C00;
-  text-align: center;
-  min-height: 150px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 900%;
-}
-
-.icons-text-homepage {
-  color: white;
-  margin: 20px;
-  font-weight: bold;
-  padding-top: 40px;
-  font-size: 200%;
-}
-
-.row-element-physical {
-  padding: 10px;
-  background-color: #A20004;
-  color: white;
-  text-align: center;
-  min-height: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid white;
-  border-radius: 50px;
-}
-
-.row-element-mental {
-  padding: 10px;
-  background-color: #053D70;
-  color: white;
-  text-align: center;
-  min-height: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid white;
-  border-radius: 50px;
-}
-
-.row-element-social {
-  padding: 10px;
-  background-color: #088C00;
-  color: white;
-  text-align: center;
-  min-height: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid white;
-  border-radius: 50px;
-}
