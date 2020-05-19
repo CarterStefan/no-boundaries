@@ -5,32 +5,68 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-.uppercase{
-    text-transform: uppercase;
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* ------------------------------------------------------ Colors */
 
+.no-boundaries-grey {
+  color: #545454;
+}
+
+/* Colors taken from Adobe Color - https://color.adobe.com/ */
+
 /* Color Theme Swatches in Hex */
-.Copy-of-Copy-of-cricket-1-hex { color: #053D70; }
-.Copy-of-Copy-of-cricket-2-hex { color: #028CCF; }
-.Copy-of-Copy-of-cricket-3-hex { color: #000000; }
-.Copy-of-Copy-of-cricket-4-hex { color: #088C00; }
-.Copy-of-Copy-of-cricket-5-hex { color: #A20004; }
+.Copy-of-Copy-of-cricket-1-hex {
+  color: #053d70;
+}
+.Copy-of-Copy-of-cricket-2-hex {
+  color: #028ccf;
+}
+.Copy-of-Copy-of-cricket-3-hex {
+  color: #000000;
+}
+.Copy-of-Copy-of-cricket-4-hex {
+  color: #088c00;
+}
+.Copy-of-Copy-of-cricket-5-hex {
+  color: #a20004;
+}
 
 /* Color Theme Swatches in RGBA */
-.Copy-of-Copy-of-cricket-1-rgba { color: rgba(4, 61, 112, 1); }
-.Copy-of-Copy-of-cricket-2-rgba { color: rgba(2, 140, 207, 1); }
-.Copy-of-Copy-of-cricket-3-rgba { color: rgba(0, 0, 0, 1); }
-.Copy-of-Copy-of-cricket-4-rgba { color: rgba(8, 140, 0, 1); }
-.Copy-of-Copy-of-cricket-5-rgba { color: rgba(161, 0, 4, 1); }
+.Copy-of-Copy-of-cricket-1-rgba {
+  color: rgba(4, 61, 112, 1);
+}
+.Copy-of-Copy-of-cricket-2-rgba {
+  color: rgba(2, 140, 207, 1);
+}
+.Copy-of-Copy-of-cricket-3-rgba {
+  color: rgba(0, 0, 0, 1);
+}
+.Copy-of-Copy-of-cricket-4-rgba {
+  color: rgba(8, 140, 0, 1);
+}
+.Copy-of-Copy-of-cricket-5-rgba {
+  color: rgba(161, 0, 4, 1);
+}
 
 /* Color Theme Swatches in HSLA */
-.Copy-of-Copy-of-cricket-1-hsla { color: hsla(208, 91, 22, 1); }
-.Copy-of-Copy-of-cricket-2-hsla { color: hsla(199, 98, 40, 1); }
-.Copy-of-Copy-of-cricket-3-hsla { color: hsla(0, 0, 0, 1); }
-.Copy-of-Copy-of-cricket-4-hsla { color: hsla(116, 100, 27, 1); }
-.Copy-of-Copy-of-cricket-5-hsla { color: hsla(358, 100, 31, 1); }
+.Copy-of-Copy-of-cricket-1-hsla {
+  color: hsla(208, 91, 22, 1);
+}
+.Copy-of-Copy-of-cricket-2-hsla {
+  color: hsla(199, 98, 40, 1);
+}
+.Copy-of-Copy-of-cricket-3-hsla {
+  color: hsla(0, 0, 0, 1);
+}
+.Copy-of-Copy-of-cricket-4-hsla {
+  color: hsla(116, 100, 27, 1);
+}
+.Copy-of-Copy-of-cricket-5-hsla {
+  color: hsla(358, 100, 31, 1);
+}
 
 /* ------------------------------------------------------ Container */
 
@@ -38,8 +74,6 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
-
-
 
 /* ------------------------------------------------------ Logo */
 
@@ -70,20 +104,19 @@ body {
 /* ------------------------------------------------------ Navbar */
 
 .nav {
-  padding: 20px;
+  padding-left: 10px;
   list-style-type: none;
   color: #545454;
-  float: right;
+  text-align: center;
 }
 
 .nav-link {
-
   color: #545454;
   text-decoration: none;
   font-weight: 700;
   border: 1px solid transparent;
   border-radius: 20px;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .nav-link .active {
@@ -91,6 +124,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   border: 1px solid red;
+  padding: 10px;
 }
 
 .nav-link:hover {
@@ -98,20 +132,44 @@ body {
   text-decoration: none;
   font-weight: 700;
   border: 1px solid red;
+  border-radius: 20px;
   transition-duration: 0.5s;
 }
+
+.nav-item{
+    padding-left: 10px;
+}
+
 
 
 /* ------------------------------------------------------ Hero Image */
 
-/* ------------------------------------------------------ Introduction  */
-
-.introduction-paragraph{
-
+.jumbotron {
+  padding: 5px 0px;
+  background-color: #a20004;
 }
 
-/* ------------------------------------------------------ Well Being */
+.jumbotron-intro {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
 
+.jumbotron-paragraph-small {
+  text-align: justify;
+  padding: 1em;
+  color: white;
+}
+
+.jumbotron-paragraph-large {
+  text-align: justify;
+  padding: 1rem 10em;
+  color: white;
+}
+
+/* ------------------------------------------------------ Introduction  */
+
+/* ------------------------------------------------------ Well Being */
 
 /* ------------------------------------------------------ Footer*/
 
@@ -157,4 +215,3 @@ body {
   border-radius: 50%;
   transition-duration: 0.5s;
 }
-
