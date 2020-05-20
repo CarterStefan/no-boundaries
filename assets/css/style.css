@@ -134,8 +134,7 @@ body {
 
 /* ------------------------------------------------------ Hero Image */
 
-.main-image {
-  
+.main-image-container {
   padding: 5px 0px;
   background: url("/assets/images/ball_color.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -145,8 +144,8 @@ body {
   width: 100%;
 }
 
-.jumbotron{
-    background: transparent;
+.jumbotron {
+  background: transparent;
 }
 
 .jumbotron-intro {
@@ -163,7 +162,7 @@ body {
 }
 
 .jumbotron-paragraph-large {
-  text-align: justify;  
+  text-align: justify;
   color: white;
   font-weight: 600;
   line-height: 1.8rem;
@@ -171,6 +170,45 @@ body {
 }
 
 /* ------------------------------------------------------ Introduction  */
+
+.introduction-container {
+  color: #a20004;
+  border-radius: 20px;
+  padding: 3em;
+  text-align: justify;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 1px solid #a20004;
+}
+
+.introduction-title {
+    color: #a20004;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+/* ------------------------------------------------------ Did you know? */
+
+.did-you-know-title{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.did-you-know-container{
+    width: 100%;
+    background-color: #053d70;
+}
+
+.did-you-know-quotes{
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+}
 
 /* ------------------------------------------------------ Well Being */
 
