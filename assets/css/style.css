@@ -119,7 +119,6 @@ body {
   padding-left: 10px;
 }
 
-
 .nav-link:hover {
   color: red;
   text-decoration: none;
@@ -129,35 +128,46 @@ body {
   transition-duration: 0.5s;
 }
 
-.nav-item{
-    padding-left: 10px;
+.nav-item {
+  padding-left: 10px;
 }
-
-
 
 /* ------------------------------------------------------ Hero Image */
 
-.jumbotron {
+.main-image {
+  
   padding: 5px 0px;
-  background-color: #a20004;
+  background: url("/assets/images/ball_color.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.jumbotron{
+    background: transparent;
 }
 
 .jumbotron-intro {
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
   color: white;
 }
 
 .jumbotron-paragraph-small {
   text-align: justify;
-  padding: 1em;
+  padding: 2rem 1em;
   color: white;
+  font-weight: 600;
 }
 
 .jumbotron-paragraph-large {
-  text-align: justify;
-  padding: 1rem 10em;
+  text-align: justify;  
   color: white;
+  font-weight: 600;
+  line-height: 1.8rem;
+  font-size: 150%;
 }
 
 /* ------------------------------------------------------ Introduction  */
