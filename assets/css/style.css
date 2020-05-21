@@ -202,15 +202,52 @@ body {
 .did-you-know-container{
     width: 100%;
     background-color: #053d70;
+    margin-top: 20px;
 }
 
 .did-you-know-quotes{
     color: white;
-    font-weight: bold;
-    padding: 1em;
+    font-weight: 400;
+    padding: 1em;    
+    margin-bottom: 0px;
+}
+
+@media(min-width: 768px){
+    .did-you-know-quotes{
+    color: white;
+    font-weight: 400;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    height: 200px;
+    margin-bottom: 20px;
+}
 }
 
 /* ------------------------------------------------------ Well Being */
+
+.wellbeing-title{
+    color: #088c00;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.wellbeing-text{
+    text-align: center;
+    color: #088c00;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.wellbeing-icon{
+    text-align: center;
+    color: #088c00;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0px;
+    }
+
 
 /* ------------------------------------------------------ Footer*/
 
