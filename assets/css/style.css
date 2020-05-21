@@ -126,6 +126,7 @@ body {
   border: 1px solid red;
   border-radius: 20px;
   transition-duration: 0.5s;
+  padding-left: 10px;
 }
 
 .nav-item {
