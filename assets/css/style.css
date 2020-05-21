@@ -292,19 +292,58 @@ body {
   padding: 1em;
 }
 
-.meet-the-team-box{
-    border: 1px solid #088c00;
-    background-color: #088c00;
-    color: white;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+.meet-the-team-box {
+  border: 1px solid #088c00;
+  background-color: #088c00;
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  text-align: justify;
+  min-height: 150px;
 }
 
-.meet-the-team-box h3{
-    font-weight: bold;
-    
 
+
+.meet-the-team-img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+}
+
+.name-box {
+  border: 2px solid #088c00;
+  color: #088c00;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.name-box h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;  
+}
+
+@media (min-width: 768px){
+    .name-box {
+  border: 2px solid #088c00;
+  color: #088c00;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+
+}
+
+.name-box h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 300%; 
+}
 }
 
 /* ------------------------------------------------------ Footer*/
