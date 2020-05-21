@@ -183,71 +183,111 @@ body {
 }
 
 .introduction-title {
-    color: #a20004;
-    font-weight: 700;
-    text-align: center;
-    padding: 1em;
+  color: #a20004;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
 }
 
 /* ------------------------------------------------------ Did you know? */
 
-.did-you-know-title{
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
+.did-you-know-title {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
-.did-you-know-container{
-    width: 100%;
-    background-color: #053d70;
-    margin-top: 20px;
+.did-you-know-container {
+  width: 100%;
+  background-color: #053d70;
+  margin-top: 20px;
 }
 
-.did-you-know-quotes{
-    color: white;
-    font-weight: 400;
-    padding: 1em;    
-    margin-bottom: 0px;
+.did-you-know-quotes {
+  color: white;
+  font-weight: 400;
+  padding: 1em;
+  margin-bottom: 0px;
 }
 
-@media(min-width: 768px){
-    .did-you-know-quotes{
+@media (min-width: 768px) {
+  .did-you-know-quotes {
     color: white;
     font-weight: 400;
     border-right: 1px solid white;
     border-left: 1px solid white;
     height: 200px;
     margin-bottom: 20px;
-}
+  }
 }
 
 /* ------------------------------------------------------ Well Being */
 
-.wellbeing-title{
-    color: #088c00;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
+.wellbeing-title {
+  color: #088c00;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
-.wellbeing-text{
-    text-align: center;
-    color: #088c00;
-    font-weight: bold;
-    font-size: 150%;
+.wellbeing-text {
+  text-align: center;
+  color: #088c00;
+  font-weight: bold;
+  font-size: 150%;
 }
 
-.wellbeing-icon{
-    text-align: center;
-    color: #088c00;
-    font-weight: bold;
-    font-size: 200%;
-    margin-bottom: 0px;
-    }
+.wellbeing-icon {
+  text-align: center;
+  color: #088c00;
+  font-weight: bold;
+  font-size: 200%;
+  margin-bottom: 0px;
+}
 
+/* ------------------------------------------------------ About us */
+.about-us-text {
+  color: #a20004;
+  border-radius: 20px;
+  padding: 3em;
+  text-align: justify;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 1px solid #a20004;
+  line-height: 2em;
+  min-height: 400px;
+  margin-bottom: 10px;
+}
+
+.active-text {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.active-box {
+    text-align: left;
+  background-color: #a20004;
+  border: 1px solid #a20004;
+  border-radius: 20px;
+  padding: 3em 0em 0em 0.5em;
+  line-height: 4em;
+  min-height: 400px;
+  font-size: 100%;
+}
+
+.active-first-letter {
+  color: white;
+  font-size: 200%;
+  font-family: "Luckiest Guy", cursive;
+}
 
 /* ------------------------------------------------------ Footer*/
 
