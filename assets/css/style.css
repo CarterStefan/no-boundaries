@@ -274,14 +274,30 @@ body {
   border: 1px solid #a20004;
   background-color: #a20004;
   color: white;
-  padding: 3em 0em 3em 3em;;
+  padding: 3em 0em 3em 3em;
   line-height: 2em;
 }
 
-.active-first-letter{
-    font-family: "Luckiest Guy", cursive;
-    font-size: 150%;
+.active-first-letter {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 150%;
+}
 
+/* ------------------------------------------------------ Meet The Team */
+
+.meet-the-team-title {
+  color: #088c00;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
+}
+
+.test-box{
+    border: 1px solid #088c00;
+    background-color: #088c00;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 /* ------------------------------------------------------ Footer*/
