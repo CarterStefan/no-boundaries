@@ -155,6 +155,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .jumbotron {
@@ -168,31 +169,31 @@ body {
 }
 
 .jumbotron-paragraph-small {
-  text-align: justify;
-  padding: 2rem 1em;
-  color: #43aed9;
+  text-align: center;
+  font-size: 200%;
+  color: #f2f2f2;
   font-weight: 600;
 }
 
 .jumbotron-paragraph-large {
-  text-align: justify;
-  color: #43aed9;
+  text-align: center;
+  color: #f2f2f2;
   font-weight: 600;
   line-height: 1.8rem;
-  font-size: 150%;
+  font-size: 300%;
 }
 
 /* ------------------------------------------------------ Introduction  */
 
-.introduction-container {
+.introduction-box {
   color: #f2f2f2;
-  border-radius: 20px;
-  padding: 3em;
+  border-radius: 20px;  
   text-align: justify;
-  background-color: #43aed9;
-  font-weight: 600;
-  border-radius: 20px;
+  background-color: #43aed9;  
   border: 1px solid #43aed9;
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .introduction-title {
@@ -200,6 +201,14 @@ body {
   font-weight: 700;
   text-align: center;
   padding: 1em;
+}
+
+.introduction-paragraph{
+    color: #43aed9;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;    
 }
 
 /* ------------------------------------------------------ Did you know? */
@@ -244,6 +253,7 @@ body {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1em;
+  margin-bottom: 30px;
 }
 
 .wellbeing-text {
@@ -251,6 +261,7 @@ body {
   color: #d95252;
   font-weight: bold;
   font-size: 150%;
+  margin-bottom: 30px;
 }
 
 .wellbeing-icon {
