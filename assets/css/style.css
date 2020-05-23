@@ -18,25 +18,55 @@ body {
 /* Colors taken from Adobe Color - https://color.adobe.com/ */
 
 /* Color Theme Swatches in Hex */
-.Modern-logo-design-template-1-hex { color: #3C3D40; }
-.Modern-logo-design-template-2-hex { color: #43AED9; }
-.Modern-logo-design-template-3-hex { color: #F2F2F2; }
-.Modern-logo-design-template-4-hex { color: #F26052; }
-.Modern-logo-design-template-5-hex { color: #D95252; }
+.Modern-logo-design-template-1-hex {
+  color: #3c3d40;
+}
+.Modern-logo-design-template-2-hex {
+  color: #43aed9;
+}
+.Modern-logo-design-template-3-hex {
+  color: #f2f2f2;
+}
+.Modern-logo-design-template-4-hex {
+  color: #f26052;
+}
+.Modern-logo-design-template-5-hex {
+  color: #d95252;
+}
 
 /* Color Theme Swatches in RGBA */
-.Modern-logo-design-template-1-rgba { color: rgba(59, 60, 63, 1); }
-.Modern-logo-design-template-2-rgba { color: rgba(67, 174, 216, 1); }
-.Modern-logo-design-template-3-rgba { color: rgba(242, 242, 242, 1); }
-.Modern-logo-design-template-4-rgba { color: rgba(242, 95, 82, 1); }
-.Modern-logo-design-template-5-rgba { color: rgba(216, 82, 82, 1); }
+.Modern-logo-design-template-1-rgba {
+  color: rgba(59, 60, 63, 1);
+}
+.Modern-logo-design-template-2-rgba {
+  color: rgba(67, 174, 216, 1);
+}
+.Modern-logo-design-template-3-rgba {
+  color: rgba(242, 242, 242, 1);
+}
+.Modern-logo-design-template-4-rgba {
+  color: rgba(242, 95, 82, 1);
+}
+.Modern-logo-design-template-5-rgba {
+  color: rgba(216, 82, 82, 1);
+}
 
 /* Color Theme Swatches in HSLA */
-.Modern-logo-design-template-1-hsla { color: hsla(225, 3, 24, 1); }
-.Modern-logo-design-template-2-hsla { color: hsla(196, 66, 55, 1); }
-.Modern-logo-design-template-3-hsla { color: hsla(0, 0, 95, 1); }
-.Modern-logo-design-template-4-hsla { color: hsla(5, 86, 63, 1); }
-.Modern-logo-design-template-5-hsla { color: hsla(0, 63, 58, 1); }
+.Modern-logo-design-template-1-hsla {
+  color: hsla(225, 3, 24, 1);
+}
+.Modern-logo-design-template-2-hsla {
+  color: hsla(196, 66, 55, 1);
+}
+.Modern-logo-design-template-3-hsla {
+  color: hsla(0, 0, 95, 1);
+}
+.Modern-logo-design-template-4-hsla {
+  color: hsla(5, 86, 63, 1);
+}
+.Modern-logo-design-template-5-hsla {
+  color: hsla(0, 63, 58, 1);
+}
 
 .original-blue {
   color: #96ecf5;
@@ -57,26 +87,26 @@ body {
 
 .logo-text {
   font-family: "Luckiest Guy", cursive;
-  color: #3C3D40;
+  color: #3c3d40;
   text-decoration: none;
   float: left;
   font-size: 200%;
 }
 
 .logo-o {
-  color: #F26052;
+  color: #f26052;
 }
 
 .logo-text:hover {
   font-family: "Luckiest Guy", cursive;
-  color: #3C3D40;
+  color: #3c3d40;
   text-decoration: none;
   float: left;
   font-size: 200%;
 }
 
 .logo-o:hover {
-  color: #F26052;
+  color: #f26052;
 }
 
 /* ------------------------------------------------------ Navbar */
@@ -84,12 +114,12 @@ body {
 .nav {
   padding-left: 10px;
   list-style-type: none;
-  color: #3C3D40;
+  color: #3c3d40;
   text-align: center;
 }
 
 .nav-link {
-  color: #3C3D40;
+  color: #3c3d40;
   text-decoration: none;
   font-weight: 700;
   border: 1px solid transparent;
@@ -98,10 +128,10 @@ body {
 }
 
 .nav-link:hover {
-  color: #43AED9;
+  color: #43aed9;
   text-decoration: none;
   font-weight: 700;
-  border: 1px solid #43AED9;
+  border: 1px solid #43aed9;
   border-radius: 20px;
   transition-duration: 0.5s;
   padding-left: 10px;
@@ -134,19 +164,19 @@ body {
 .jumbotron-intro {
   text-align: center;
   font-weight: 900;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .jumbotron-paragraph-small {
   text-align: justify;
   padding: 2rem 1em;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 600;
 }
 
 .jumbotron-paragraph-large {
   text-align: justify;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 600;
   line-height: 1.8rem;
   font-size: 150%;
@@ -155,18 +185,18 @@ body {
 /* ------------------------------------------------------ Introduction  */
 
 .introduction-container {
-  color: #F2F2F2;
+  color: #f2f2f2;
   border-radius: 20px;
   padding: 3em;
   text-align: justify;
-  background-color: #43AED9;
+  background-color: #43aed9;
   font-weight: 600;
   border-radius: 20px;
-  border: 1px solid #43AED9;
+  border: 1px solid #43aed9;
 }
 
 .introduction-title {
-  color: #3C3D40;
+  color: #3c3d40;
   font-weight: 700;
   text-align: center;
   padding: 1em;
@@ -175,7 +205,7 @@ body {
 /* ------------------------------------------------------ Did you know? */
 
 .did-you-know-title {
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 700;
   text-align: center;
   padding-top: 2em;
@@ -184,12 +214,12 @@ body {
 
 .did-you-know-container {
   width: 100%;
-  background-color: #3C3D40;
+  background-color: #3c3d40;
   margin-top: 20px;
 }
 
 .did-you-know-quotes {
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-weight: 400;
   padding: 1em;
   margin-bottom: 0px;
@@ -197,10 +227,10 @@ body {
 
 @media (min-width: 768px) {
   .did-you-know-quotes {
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-weight: 400;
-    border-right: 1px solid #F2F2F2;
-    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
     height: 200px;
     margin-bottom: 20px;
   }
@@ -209,7 +239,7 @@ body {
 /* ------------------------------------------------------ Well Being */
 
 .wellbeing-title {
-  color: #D95252;
+  color: #d95252;
   font-weight: 700;
   text-align: center;
   padding-top: 2em;
@@ -218,14 +248,14 @@ body {
 
 .wellbeing-text {
   text-align: center;
-  color: #D95252;
+  color: #d95252;
   font-weight: bold;
   font-size: 150%;
 }
 
 .wellbeing-icon {
   text-align: center;
-  color: #D95252;
+  color: #d95252;
   font-weight: bold;
   font-size: 200%;
   margin-bottom: 0px;
@@ -233,15 +263,22 @@ body {
 
 /* ------------------------------------------------------ About us */
 
+.about-us-title {
+  color: #43aed9;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
+}
+
 .about-us-text {
-  color: #43AED9;
+  color: #43aed9;
   border-radius: 20px;
   padding: 3em;
   text-align: justify;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-weight: 600;
   border-radius: 20px;
-  border: 1px solid #43AED9;
+  border: 1px solid #43aed9;
   line-height: 2em;
   min-height: 400px;
   margin-bottom: 10px;
@@ -249,14 +286,14 @@ body {
 
 .active-text {
   display: inline-block;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .about-us-box {
   border-radius: 20px;
   border: 1px solid #5f8f94;
   background-color: #5f8f94;
-  color: #F2F2F2;
+  color: #f2f2f2;
   padding: 3em 0em 3em 3em;
   line-height: 2em;
 }
@@ -269,16 +306,16 @@ body {
 /* ------------------------------------------------------ Meet The Team */
 
 .meet-the-team-title {
-  color: #D95252;
+  color: #d95252;
   font-weight: 700;
   text-align: center;
   padding: 1em;
 }
 
 .meet-the-team-box {
-  border: 1px solid #D95252;
-  background-color: #D95252;
-  color: #F2F2F2;
+  border: 1px solid #d95252;
+  background-color: #d95252;
+  color: #f2f2f2;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
@@ -294,8 +331,8 @@ body {
 }
 
 .name-box {
-  border: 2px solid #D95252;
-  color: #D95252;
+  border: 2px solid #d95252;
+  color: #d95252;
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
@@ -309,8 +346,8 @@ body {
 
 @media (min-width: 768px) {
   .name-box {
-    border: 2px solid ##D95252;
-    color: #D95252;
+    border: 2px solid #d95252;
+    color: #d95252;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
@@ -325,16 +362,74 @@ body {
   }
 }
 
+/* ------------------------------------------------------ Why We Do It*/
+
+.why-us-title {
+  color: #3c3d40;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em;
+}
+
+.fact-box {
+  position: relative;
+  border: 1px solid #3c3d40;
+  background-color: #3c3d40;
+  color: #f2f2f2;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: justify;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #3c3d40;
+  border: 1px solid #3c3d40;
+  border-radius: 20px;
+}
+
+.fact-box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.fact-box-number {
+  color: white;
+  padding-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 500%;
+}
+
 /* ------------------------------------------------------ Footer*/
 
 .footer-element {
   padding: 10px;
-  background-color: #545454;
-  color: #F2F2F2;
+  background-color: #3c3d40;
+  color: #f2f2f2;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   border-radius: 50px;
 }
 
@@ -351,21 +446,21 @@ body {
 
 .footer-text i {
   text-decoration: none;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-size: 100%;
   margin: 2%;
   padding: 2%;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   border-radius: 50%;
 }
 
 .footer-text i:hover {
   text-decoration: none;
-  color: #D95252;
+  color: #43aed9;
   font-size: 100%;
   margin: 2%;
   padding: 2%;
-  border: 1px solid #D95252;
+  border: 1px solid #43aed9;
   border-radius: 50%;
   transition-duration: 0.5s;
 }
