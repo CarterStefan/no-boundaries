@@ -73,7 +73,7 @@ body {
 }
 
 .dark-blue {
-  color: #5f8f94;
+  color: #43aed9;
 }
 
 /* ------------------------------------------------------ Container */
@@ -149,7 +149,7 @@ body {
 
 .main-image-container {
   padding: 5px 0px;
-  background: url("/assets/images/ball_color.jpg") no-repeat center center;
+  background: url("/assets/images/ball_bw.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -164,19 +164,19 @@ body {
 .jumbotron-intro {
   text-align: center;
   font-weight: 900;
-  color: #f2f2f2;
+  color: #43aed9;
 }
 
 .jumbotron-paragraph-small {
   text-align: justify;
   padding: 2rem 1em;
-  color: #f2f2f2;
+  color: #43aed9;
   font-weight: 600;
 }
 
 .jumbotron-paragraph-large {
   text-align: justify;
-  color: #f2f2f2;
+  color: #43aed9;
   font-weight: 600;
   line-height: 1.8rem;
   font-size: 150%;
@@ -291,16 +291,25 @@ body {
 
 .about-us-box {
   border-radius: 20px;
-  border: 1px solid #5f8f94;
-  background-color: #5f8f94;
+  border: 1px solid #43aed9;
+  background-color: #43aed9;
   color: #f2f2f2;
-  padding: 3em 0em 3em 3em;
+  padding: 3em;
   line-height: 2em;
+  min-height: 300px;
+  margin-bottom: 10px;
 }
 
 .active-first-letter {
   font-family: "Luckiest Guy", cursive;
   font-size: 150%;
+}
+
+.about-us-img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 10px auto;
 }
 
 /* ------------------------------------------------------ Meet The Team */
@@ -317,6 +326,7 @@ body {
   background-color: #d95252;
   color: #f2f2f2;
   border-radius: 20px;
+  
   margin: 10px;
   padding: 20px;
   text-align: justify;
@@ -336,6 +346,7 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
+  
 }
 
 .name-box h3 {
@@ -383,6 +394,16 @@ body {
   min-width: 300px;
 }
 
+.fact-box-number {
+  color: white;
+  padding-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+/* .overlay .fact-box:hover .text css taken from https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+
 .overlay {
   position: absolute;
   top: 0;
@@ -412,13 +433,7 @@ body {
   text-align: left;
 }
 
-.fact-box-number {
-  color: white;
-  padding-top: 80px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 500%;
-}
+
 
 /* ------------------------------------------------------ Footer*/
 
