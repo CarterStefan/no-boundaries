@@ -187,9 +187,9 @@ body {
 
 .introduction-box {
   color: #f2f2f2;
-  border-radius: 20px;  
+  border-radius: 20px;
   text-align: justify;
-  background-color: #43aed9;  
+  background-color: #43aed9;
   border: 1px solid #43aed9;
   padding: 20px;
   font-weight: bold;
@@ -203,12 +203,12 @@ body {
   padding: 1em;
 }
 
-.introduction-paragraph{
-    color: #43aed9;
-    font-weight: bold;
-    text-align: justify;
-    margin-bottom: 20px;
-    margin-top: 20px;    
+.introduction-paragraph {
+  color: #43aed9;
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* ------------------------------------------------------ Did you know? */
@@ -295,11 +295,6 @@ body {
   margin-bottom: 10px;
 }
 
-.active-text {
-  display: inline-block;
-  color: #f2f2f2;
-}
-
 .about-us-box {
   border-radius: 20px;
   border: 1px solid #43aed9;
@@ -311,16 +306,39 @@ body {
   margin-bottom: 10px;
 }
 
-.active-first-letter {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 150%;
-}
-
 .about-us-img {
   height: 300px;
   width: 300px;
   display: block;
   margin: 10px auto;
+}
+
+.active-letter-box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #43aed9;
+  border-radius: 50%;
+  background-color: #43aed9;
+  margin: 10px auto;
+}
+
+.active-first-letter {
+  font-family: "Luckiest Guy", cursive;
+  color: #f2f2f2;
+  font-size: 125px;
+  text-align: center;
+}
+
+.active-text {
+  color: #43aed9;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 20px;
 }
 
 /* ------------------------------------------------------ Meet The Team */
@@ -337,7 +355,7 @@ body {
   background-color: #d95252;
   color: #f2f2f2;
   border-radius: 20px;
-  
+
   margin: 10px;
   padding: 20px;
   text-align: justify;
@@ -357,7 +375,6 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
-  
 }
 
 .name-box h3 {
@@ -397,7 +414,7 @@ body {
   position: relative;
   border: 1px solid #3c3d40;
   background-color: #3c3d40;
-  color: #f2f2f2;
+  color: #43aed9;
   border-radius: 20px;
   margin: 10px;
   text-align: justify;
@@ -406,7 +423,7 @@ body {
 }
 
 .fact-box-number {
-  color: white;
+  color: #43aed9;
   padding-top: 80px;
   text-align: center;
   font-weight: bold;
@@ -443,8 +460,6 @@ body {
   transform: translate(-50%, -50%);
   text-align: left;
 }
-
-
 
 /* ------------------------------------------------------ Footer*/
 
