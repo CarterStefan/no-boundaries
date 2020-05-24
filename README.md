@@ -44,18 +44,18 @@ What We do - This will be a more detailed introduction to the business and the c
 
 Meet The Team - A page to show visitors to the site the members of No Boundaries, with some information about them.
 
+The Facts - Some facts on childrens mental health and obesity issues in the UK.
+
 Contact - A contact form so people wishing to speak to the team have a way to do so. 
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Future Features
+- In the future, I would wish to add more photos of the team in action.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- I would also like to add a booking system onto the site. This would be a page where people could log in and see the sessions they currently have booked, as well as the ability to book new sessions.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- I have used a color scheme that is loosely based on the companies existing branding (a lot of use of bright light blue), with the use of some additional colors. In the future, should the website go on to be used by the company, I would accomodate any changes they wish to make to fit more with their own brand. 
 
-### Features Left to Implement
-- Another feature idea
+- Similarly, I used a logo which is only based on the actual existing logo. This was because the existing image I had for the logo didn't appear as sharp as making a text based logo. I kept the playful font, however added a more subtle red to fit in with the color scheme I chose. I would change this to add in the actual logo once handing over to the business.
 
 ## Technologies Used
 
@@ -124,4 +124,4 @@ ball_bw - this image was obtained from [Pixabay](https://pixabay.com/photos/cric
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my old housemate at University. He has recently started up the 'o Boundaries' business and looking to make a living from this. Starting my course has come at a good time for both of us, as it gave me the opprtunity to base my project on something real, that may make a difference in the real world. It also gives the business the chance to have a bespoke website built for them for free. 
