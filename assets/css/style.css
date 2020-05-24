@@ -179,11 +179,19 @@ body {
   text-align: center;
   color: #f2f2f2;
   font-weight: 600;
-  line-height: 1.8rem;
   font-size: 300%;
 }
 
+.homepage-tagline {
+  text-align: center;
+  color: #43aed9;
+  font-weight: 600;
+  font-size: 100%;
+}
+
 /* ------------------------------------------------------ Introduction  */
+
+
 
 .introduction-box {
   color: #f2f2f2;
@@ -193,7 +201,7 @@ body {
   border: 1px solid #43aed9;
   padding: 20px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin: 20px 0px;
 }
 
 .introduction-title {
@@ -204,11 +212,14 @@ body {
 }
 
 .introduction-paragraph {
+  
+  border-radius: 20px;
   color: #43aed9;
-  font-weight: bold;
+  
   text-align: justify;
   margin-bottom: 20px;
   margin-top: 20px;
+  padding: 20px;
 }
 
 /* ------------------------------------------------------ Did you know? */
@@ -288,7 +299,6 @@ body {
   text-align: justify;
   background-color: #f2f2f2;
   font-weight: 600;
-  border-radius: 20px;
   border: 1px solid #43aed9;
   line-height: 2em;
   min-height: 400px;
@@ -300,10 +310,11 @@ body {
   border: 1px solid #43aed9;
   background-color: #43aed9;
   color: #f2f2f2;
-  padding: 3em;
+  padding: 40px 20px;
   line-height: 2em;
   min-height: 300px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .about-us-img {
@@ -314,8 +325,8 @@ body {
 }
 
 .active-letter-box {
-  height: 200px;
-  width: 200px;
+  height: 125px;
+  width: 125px;
   border: 1px solid #43aed9;
   border-radius: 50%;
   background-color: #43aed9;
@@ -325,7 +336,7 @@ body {
 .active-first-letter {
   font-family: "Luckiest Guy", cursive;
   color: #f2f2f2;
-  font-size: 125px;
+  font-size: 80px;
   text-align: center;
 }
 
@@ -337,7 +348,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 125px;
   font-size: 20px;
 }
 
