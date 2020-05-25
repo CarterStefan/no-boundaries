@@ -145,6 +145,12 @@ body {
   padding-top: 10px;
 }
 
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+  }
+}
+
 /* ------------------------------------------------------ Hero Image */
 
 .main-image-container {
@@ -191,8 +197,6 @@ body {
 
 /* ------------------------------------------------------ Introduction  */
 
-
-
 .introduction-box {
   color: #f2f2f2;
   border-radius: 20px;
@@ -212,10 +216,9 @@ body {
 }
 
 .introduction-paragraph {
-  
   border-radius: 20px;
   color: #43aed9;
-  
+
   text-align: justify;
   margin-bottom: 20px;
   margin-top: 20px;
