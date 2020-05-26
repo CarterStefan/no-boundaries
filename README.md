@@ -89,25 +89,21 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 
 ## Technologies Used
 
-- [HTML5] (https://en.wikipedia.org/wiki/HTML5)  This was used to create the structure of the site.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)  This was used to create the structure of the site.
 
-- [CSS] (https://en.wikipedia.org/wiki/Cascading_Style_Sheets) This was used to make the page more visually appealing.
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) This was used to make the page more visually appealing.
 
-- [Bootstrap](https://getbootstrap.com/)
-    - This project used **Bootstrap** as a framework. The main use of this will be for the layout and grid of the page.
+- [Bootstrap](https://getbootstrap.com/) This project used Bootstrap as a framework. The main use of this will be for the layout and grid of the page.
 
-- [Google-Fonts](https://fonts.google.com/)
-    - I have used range of fonts from Google to make the page more visually appealing.
+- [Google-Fonts](https://fonts.google.com/) I have used range of fonts from Google to make the page more visually appealing.
 
-- [Fontawsome](https://fontawesome.com/)
-    - I will have used FontAwesome for the pictograms on my site.
+- [Fontawsome](https://fontawesome.com/)I will have used FontAwesome for the pictograms on my site.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** for the mobile menu in the navbar.
+- [JQuery](https://jquery.com) This was used for the mobile menu in the navbar.
 
-- [GitPod] (https://www.gitpod.io/) This was used to create the HTML and CSS for the site.
+- [GitPod](https://www.gitpod.io/) This was used to create the HTML and CSS for the site.
 
-- [GitHub] (https://github.com/) This was used for hosting and version control of the website.
+- [GitHub](https://github.com/) This was used for hosting and version control of the website.
 
 
 
