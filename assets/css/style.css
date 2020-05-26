@@ -15,7 +15,7 @@ body {
   color: #545454;
 }
 
-/* Colors taken from Adobe Color - https://color.adobe.com/ */
+/* Color theme taken from Adobe Color - https://color.adobe.com/ */
 
 /* Color Theme Swatches in Hex */
 .Modern-logo-design-template-1-hex {
@@ -160,7 +160,11 @@ body {
   }
 }
 
+/* ------------------------------------------------------ Homepage */
+
 /* ------------------------------------------------------ Hero Image */
+
+/* Code taken from css-tricks with help from Hero Image lesson on code institue */
 
 .main-image-container {
   padding: 5px 0px;
@@ -204,7 +208,7 @@ body {
   font-size: 100%;
 }
 
-/* ------------------------------------------------------ Introduction  */
+/* ------------------------------------------------------ Introduction Section */
 
 .introduction-box {
   color: #f2f2f2;
@@ -234,7 +238,7 @@ body {
   padding: 20px;
 }
 
-/* ------------------------------------------------------ Did you know? */
+/* ------------------------------------------------------ Did you know Section  */
 
 .did-you-know-title {
   color: #f2f2f2;
@@ -268,7 +272,7 @@ body {
   }
 }
 
-/* ------------------------------------------------------ Well Being */
+/* ------------------------------------------------------ Well Being Section */
 
 .wellbeing-title {
   color: #d95252;
@@ -295,7 +299,9 @@ body {
   margin-bottom: 0px;
 }
 
-/* ------------------------------------------------------ About us */
+/* ------------------------------------------------------ About us Page */
+
+/* ------------------------------------------------------ About us Section */
 
 .about-us-title {
   color: #43aed9;
@@ -336,6 +342,8 @@ body {
   margin: 10px auto;
 }
 
+/* ------------------------------------------------------ Active Section */
+
 .active-letter-box {
   height: 125px;
   width: 125px;
@@ -364,7 +372,7 @@ body {
   font-size: 20px;
 }
 
-/* ------------------------------------------------------ Meet The Team */
+/* ------------------------------------------------------ Meet The Team Page */
 
 .meet-the-team-title {
   color: #d95252;
@@ -424,7 +432,7 @@ body {
   }
 }
 
-/* ------------------------------------------------------ Why We Do It*/
+/* ------------------------------------------------------ The Facts Page */
 
 .why-us-title {
   color: #3c3d40;
@@ -484,7 +492,9 @@ body {
   text-align: left;
 }
 
-/* ------------------------------------------------------ Contact*/
+/* ------------------------------------------------------ Contact Us page */
+
+/* Used same code as jumbotron on homepage for the image background - Taken from css tricks with code institute tutorial */
 
 .main-image-container-contact {
   padding: 5px 0px;
@@ -516,9 +526,7 @@ body {
   padding: 10px;
   text-align: left;
   float: left;
-  
 }
-
 
 .form-text {
   background: transparent;
@@ -531,7 +539,7 @@ body {
   text-align: center;
 }
 
-.form-text-comment{
+.form-text-comment {
   background: transparent;
   color: #f2f2f2;
   width: 100%;
@@ -542,9 +550,10 @@ body {
   padding: 0px;
 }
 
+/* Researched how to remove scrollbar on text box - Code taken from W3 schools */
 .scroll::-webkit-scrollbar {
-   display: none;
- }
+  display: none;
+}
 
 .form-button {
   background: #f2f2f2;
@@ -557,12 +566,14 @@ body {
   margin-left: 33%;
 }
 
+/* Researched how to change text color for placeholder text - Code taken from W3 schools */
 ::placeholder {
   color: #f2f2f2;
   padding: 5px;
   width: 100%;
 }
 
+/* Researched how to remove blue border from input boxes - Code taken from Stackoverflow schools */
 input:focus {
   outline: none;
 }
