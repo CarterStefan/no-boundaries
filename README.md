@@ -1,5 +1,7 @@
 # No Boundaries
 
+This is my first milestone project towards my full-stack developer course with the Code Insitute. I have created a website for a new business called no boundaries. They are a new business and already have a basic wordpress website, so this project came at a good time to benefit both parties.
+
 No Boundaries provide sessions using various cricket and exercise based activities to promote and improve a child’s physical, mental and social wellbeing. By encouraging and increasing these three areas of wellbeing, a child has the best chance to thrive in all areas of their future lives.
 
 This project will be creating a new website for No Boundaries to use when introducing themselves to schools and councils, in the hope of securing bookings. 
@@ -8,7 +10,7 @@ This project will be creating a new website for No Boundaries to use when introd
  
 This website will be used by teachers, councils and parents. The main aim of the website will be to introduce the business and show what they do, as well as tell them some information about the team. This will be in the hope of securing the booking of sessions for the teachers school, or saturday sessions through the council. The website may also be used as a means of contact between user and staff. 
 
-Due to the mix of people using the website, the visual language will need to have a balanced look between professional, for the teachers, and playful, to show the parents that it will be a fun program for their children to take part in. 
+Due to the mix of people using the website, the visual language will need to have a balanced look between professional - for the teachers, and playful - to show the parents that it will be a fun program for their children to take part in. I will hope to achive this by having the website look clean and sharp with bright colors. 
 
 ### User Stories
 
@@ -30,28 +32,56 @@ Due to the mix of people using the website, the visual language will need to hav
 
     My daughter is shy, and struggles to socialise with other children and I am concerned about her confidence which may be detramental in the future. I am looking at after school / weekend clubs which she will be able to participate in which will not be too aggresive or full on, as we have found some team sports to be overwhelming. 
 
-    Cricket can be known as 'the gentlemans game' - not in the sense that only men should play, but that it is not aggresive, violent or nasty as other sports. I would need to show this through the visual language, by using soft colors, friendly fonts, and rounded edges. The content should make the user feel confident that their children are in safe hands. An introduction to the team will do this, as well as showing a focus on adapting social skills. 
+    Cricket can be known as 'the gentlemans game' - not in the sense that only men should play, but that it is not as aggresive, violent or nasty as other sports. I would need to show this through the visual language, by using soft colors, friendly fonts, and rounded edges. The content should make the user feel confident that their children are in safe hands. An introduction to the team will do this, as well as showing a focus on adapting social skills. 
  
 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+I did not use any mock-ups for this project. However, one reflection, I feel this was a mistake, and added wasted time to the project. I will be making mockups in the future.
 
 ## Features
 
-Homepage - A brief introduction to the business and some key stats to encourage people to invest in the page.
+-   Homepage - A brief introduction to the business and some key stats to encourage people to invest in the page.
 
-What We do - This will be a more detailed introduction to the business and the core values.
+-   What We do - This will be a more detailed introduction to the business and the core values.
 
-Meet The Team - A page to show visitors to the site the members of No Boundaries, with some information about them.
+-   Meet The Team - A page to show visitors to the site the members of No Boundaries, with some information about them.
 
-The Facts - Some facts on childrens mental health and obesity issues in the UK.
+-   The Facts - Some facts on childrens mental health and obesity issues in the UK.
 
-Contact - A contact form so people wishing to speak to the team have a way to do so. 
+-   Contact - A contact form so people wishing to speak to the team have a way to get in touch. 
+
+### Fonts
+
+I have used the Google Fonts library to make the text on my page visually appealing.
+
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;900&display=swap");
+
+-   Luckiest Guy - This font was used as it is playful and similar to the existing logo used by the company. I was not entirely happy with how the existing logo worked on the page, as they did not have a high quality version of the logo. So I created one which is very simiar to achieve a more professional look for my project.
+
+-   Raleway - I selected this font to use throughout the site as it works well as both a heading in bold and in normal weight for other text. It looks professional, friendly and is easy to read against the block colors of the background.
+
+### color
+
+I used Adobe Color to select the scheme for the website. The main color to be used was both the bright blue and grey. So I looked through the palettes to find one which features these two colors, but which also had a red to tie in to the cricket theme.
+
+  color: #3c3d40
+  color: #43aed9
+  color: #f2f2f2
+  color: #f26052
+  color: #d95252
+
+### Images
+
+  The stock images used throughout the site were taken from the existing No Boundaries website. These are free to use images originally taken from [Pixabay](https://pixabay.com/)
+
+  The images of the members of the team were sent to me by one of the directors of No Boundaries.
  
 ### Future Features
-- In the future, I would wish to add more photos of the team in action.
+- In the future, I would wish to add more photos of the team in action to replace the stock images on the about us page.
 
 - I would also like to add a booking system onto the site. This would be a page where people could log in and see the sessions they currently have booked, as well as the ability to book new sessions.
+
+- I would also make the contact form fully functional so that people will actually be able to get in touch with the team.
 
 - I have used a color scheme that is loosely based on the companies existing branding (a lot of use of bright light blue), with the use of some additional colors. In the future, should the website go on to be used by the company, I would accomodate any changes they wish to make to fit more with their own brand. 
 
@@ -59,27 +89,24 @@ Contact - A contact form so people wishing to speak to the team have a way to do
 
 ## Technologies Used
 
-HTML5
+- HTML5 - This was to create the structure of the site.
 
-CSS
+- CSS - This was used to make the page more visually appealing.
 
-[Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
     - This project will use **Bootstrap** as a framework. The main use of this will be for the layout and grid of the page.
 
-[Google-Fonts](https://fonts.google.com/)
+- [Google-Fonts](https://fonts.google.com/)
     - I will be using a range of fonts from Google to make the page more visually appealing.
 
-[Fontawsome](https://fontawesome.com/)
+- [Fontawsome](https://fontawesome.com/)
     - I will use Fontawsome for the pictograms on my site.
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** for the mobile menu in the navbar
 
-1 - Navbar code taken from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navs/#horizontal-alignment)
-    - This was used to create the menu options which are aligned to the right.
 
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ## Testing
 
@@ -118,9 +145,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
-- The photos used in this site were obtained from ...
-ball_bw - this image was obtained from [Pixabay](https://pixabay.com/photos/cricket-ball-grass-green-red-2533791/)
+
 
 ### Acknowledgements
 
