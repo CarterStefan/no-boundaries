@@ -89,9 +89,9 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 
 ## Technologies Used
 
-- HTML5 - This was used to create the structure of the site.
+- [HTML5] (https://en.wikipedia.org/wiki/HTML5)  This was used to create the structure of the site.
 
-- CSS - This was used to make the page more visually appealing.
+- [CSS] (https://en.wikipedia.org/wiki/Cascading_Style_Sheets) This was used to make the page more visually appealing.
 
 - [Bootstrap](https://getbootstrap.com/)
     - This project used **Bootstrap** as a framework. The main use of this will be for the layout and grid of the page.
@@ -105,12 +105,11 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** for the mobile menu in the navbar.
 
-- GitPod - This was used to create the HTML and CSS for the site.
+- [GitPod] (https://www.gitpod.io/) This was used to create the HTML and CSS for the site.
 
-- GitHub - This was used for hosting and version control of the website.
+- [GitHub] (https://github.com/) This was used for hosting and version control of the website.
 
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ## Testing
 
@@ -143,14 +142,13 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-
-## Credits
-
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-
+All text used on this website was taken from the existing [No-Boundaries] (https://noboundaries2020.com/) page.
 
 ### Acknowledgements
 
-- I received inspiration for this project from my old housemate at University. He has recently started up the 'o Boundaries' business and looking to make a living from this. Starting my course has come at a good time for both of us, as it gave me the opprtunity to base my project on something real, that may make a difference in the real world. It also gives the business the chance to have a bespoke website built for them for free. 
+- I received inspiration for this project from my old housemate at University. He has recently started up the 'No Boundaries' business and looking to make a living from this. Starting my course has come at a good time for both of us, as it gave me the opprtunity to base my project on something real, that may make a difference in the real world. It also gives the business the chance to have a bespoke website built for them for free. 
+
+- I would like to thank Joel Douglas for the input on this project.
+
+- Also, a thankyou to all the Code Institute team. The course and training videos have helped me learn so much in a short space of time.
