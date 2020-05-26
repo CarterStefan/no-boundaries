@@ -51,30 +51,6 @@ body {
   color: rgba(216, 82, 82, 1);
 }
 
-/* Color Theme Swatches in HSLA */
-.Modern-logo-design-template-1-hsla {
-  color: hsla(225, 3, 24, 1);
-}
-.Modern-logo-design-template-2-hsla {
-  color: hsla(196, 66, 55, 1);
-}
-.Modern-logo-design-template-3-hsla {
-  color: hsla(0, 0, 95, 1);
-}
-.Modern-logo-design-template-4-hsla {
-  color: hsla(5, 86, 63, 1);
-}
-.Modern-logo-design-template-5-hsla {
-  color: hsla(0, 63, 58, 1);
-}
-
-.original-blue {
-  color: #96ecf5;
-}
-
-.dark-blue {
-  color: #43aed9;
-}
 
 /* ------------------------------------------------------ Container */
 

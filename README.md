@@ -89,21 +89,25 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 
 ## Technologies Used
 
-- HTML5 - This was to create the structure of the site.
+- HTML5 - This was used to create the structure of the site.
 
 - CSS - This was used to make the page more visually appealing.
 
 - [Bootstrap](https://getbootstrap.com/)
-    - This project will use **Bootstrap** as a framework. The main use of this will be for the layout and grid of the page.
+    - This project used **Bootstrap** as a framework. The main use of this will be for the layout and grid of the page.
 
 - [Google-Fonts](https://fonts.google.com/)
-    - I will be using a range of fonts from Google to make the page more visually appealing.
+    - I have used range of fonts from Google to make the page more visually appealing.
 
 - [Fontawsome](https://fontawesome.com/)
-    - I will use Fontawsome for the pictograms on my site.
+    - I will have used FontAwesome for the pictograms on my site.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** for the mobile menu in the navbar
+    - The project uses **JQuery** for the mobile menu in the navbar.
+
+- GitPod - This was used to create the HTML and CSS for the site.
+
+- GitHub - This was used for hosting and version control of the website.
 
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
