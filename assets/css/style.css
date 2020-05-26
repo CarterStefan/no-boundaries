@@ -144,7 +144,7 @@ body {
 
 .main-image-container {
   padding: 5px 0px;
-  background: url("/assets/images/ball_bw.jpg") no-repeat center center;
+  background: url("../images/ball_bw.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
