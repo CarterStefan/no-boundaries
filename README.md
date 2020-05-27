@@ -209,7 +209,7 @@ To deploy the page and make it viewable to others, I used Github pages:
 
 
 ### Content
-All text used on this website was taken from the existing [No-Boundaries] (https://noboundaries2020.com/) page. In parts, some of the text has been amended / adapted.
+All text used on this website was taken from the existing [No-Boundaries](https://noboundaries2020.com/) page. In parts, some of the text has been amended / adapted.
 
 ### Acknowledgements
 
