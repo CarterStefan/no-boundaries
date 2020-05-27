@@ -51,7 +51,6 @@ body {
   color: rgba(216, 82, 82, 1);
 }
 
-
 /* ------------------------------------------------------ Container */
 
 .no-gutters {
@@ -209,7 +208,7 @@ body {
   color: #43aed9;
 
   text-align: justify;
-  
+
   padding: 10px;
 }
 
@@ -345,6 +344,20 @@ body {
   align-items: center;
   height: 125px;
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .active-text {
+    color: #43aed9;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    font-size: 20px;
+  }
 }
 
 /* ------------------------------------------------------ Meet The Team Page */
@@ -548,13 +561,15 @@ body {
   width: 100%;
 }
 
-::-webkit-input-placeholder { /* Edge */
+::-webkit-input-placeholder {
+  /* Edge */
   color: #f2f2f2;
   padding: 5px;
   width: 100%;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: #f2f2f2;
   padding: 5px;
   width: 100%;
@@ -575,6 +590,7 @@ label {
 
 /* ------------------------------------------------------ Footer*/
 
+
 .footer-element {
   padding: 10px;
   background-color: #3c3d40;
@@ -584,6 +600,7 @@ label {
   margin-bottom: 10px;
   border: 1px solid #f2f2f2;
   border-radius: 50px;
+  width: 100%;
 }
 
 .footer-text {
@@ -600,7 +617,7 @@ label {
 .footer-text i {
   text-decoration: none;
   color: #f2f2f2;
-  font-size: 100%;
+  font-size: 150%;
   margin: 2%;
   padding: 2%;
   border: 1px solid #f2f2f2;
@@ -610,7 +627,7 @@ label {
 .footer-text i:hover {
   text-decoration: none;
   color: #43aed9;
-  font-size: 100%;
+  font-size: 150%;
   margin: 2%;
   padding: 2%;
   border: 1px solid #43aed9;
