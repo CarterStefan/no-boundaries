@@ -18,10 +18,14 @@ Due to the mix of people using the website, the visual language will need to hav
 
     A lot of the children are already members of Saturday football teams, so I would like an alternitive to football. However, there should also be a focus on helping the pupils thrive as people, rather than just sport coaching.
 
+    I need to know that the pupils will be looked after by a team of experienced and professional people.
+
     The website will show that the sessions focus on the social and mental wellbeing of the pupils, as well as the physical wellbeing. I will also point out some key facts about childrens well being, such as obesity levels and despression / anxiety figures in young children. The website will have an introduction to the staff so the teachers can get more familiar with who they are going to be working with. There will also be a contact page where teachers can get in touch should they require more information or a meeting. 
 
 
--   I am the Leisure and Culture officer at the local council. I am looking for activities to put on in the community to engage children with     socialising and becoming more active.
+-   I am the Leisure and Culture officer at the local council. I am looking for activities to put on in the community to engage children with     socialising and becoming more active. 
+
+    I will need to be able to get in contact with the team should I like what I see.
 
     I would like to put on some Saturday sessions which will help young children in my community make new friends as well as getting children physically fitter in the aim of reducing child obesity. Due to the rise in the interest of cricket in England, since the victory in the cricket world cup last year, this will be good activity to invest in.
 
@@ -31,6 +35,8 @@ Due to the mix of people using the website, the visual language will need to hav
 -   I am the parent of a pupil in primary school.
 
     My daughter is shy, and struggles to socialise with other children and I am concerned about her confidence which may be detramental in the future. I am looking at after school / weekend clubs which she will be able to participate in which will not be too aggresive or full on, as we have found some team sports to be overwhelming. 
+
+    I need to know that the club I sign my team up to share the same concerns about my child and these will be accomodated for.
 
     Cricket can be known as 'the gentlemans game' - not in the sense that only men should play, but that it is not as aggresive, violent or nasty as other sports. I would need to show this through the visual language, by using soft colors, friendly fonts, and rounded edges. The content should make the user feel confident that their children are in safe hands. An introduction to the team will do this, as well as showing a focus on adapting social skills. 
  
@@ -103,43 +109,107 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 
 - [GitPod](https://www.gitpod.io/) This was used to create the HTML and CSS for the site.
 
-- [GitHub](https://github.com/) This was used for hosting and version control of the website.
-
+- [GitHub](https://github.com/) This was used for hosting and version control of the website. From here, I also used the Code Institute template to begin the coding of my site.
 
 
 ## Testing
 
+
+The key points from my user stories were to make sure the website showed that the team were proffesional, friendly, experienced, and shared the concerns of mental health / obesity in children. 
+
+I made sure the site looked professional by using a simple font, and a consistent color scheme throughout the site to keep on brand across all pages.
+
+I used a softer / pastel color scheme to accomodate for the friendly aspect of the business. Also, using rouinded edges on all boxes backed this up so the site did not look too clunky. 
+
+I created a page for the team so that the people would be introduced to the members and will get to know more about them before enquring.
+
+A stats page was also created to show why the business is created and that the team share the same passions and concerns as the parents / teachers / councilors wanting to run an after school club.
+
+A contact form was made on the last page. This was so that the users of the site can get in touch should they require more information or want to make a booking. 
+
+All the pages are linked through the top nav bar, and can easily be navigated throughout the site. It is consistent across all pages so the user can easily navigated between the pages at any point. A consistent look also aids with the user being able to go from page to page with ease.
+
+### Manual Testing
+
+1. Nav Bar: 
+    1. From the homepage - click on the first item of the Nav Bar - About Us
+    2. From About Us, click on the second link - Meet The Team
+    3. From Meet the Team, click on the third link - The Facts
+    4. From The Facts Click on the Final link - Contact Us
+    5. Repeat the steps so that all links have been clicked on to all pages, ensuring they all link to the correct page
+
+
+2. The Facts:
+    1. Hover over / click the first box to reveal a the fact behind the number
+    2. repeat for all boxes
+
+3. Contact Form:
+    1. Without filling out any fields click the submit button - An error message appears asking to fill out the first box.
+    2. Fill out the first box and click the submit button - An error message appears asking you to submit the email field.
+    3. Fill out the email field with an invalid email address - An error message appears asking for a valid email address.
+    4. Fill out the email with a valid email address and click submit - An error message appears asking to fill out the comments box.
+    5. Fill out all boxes and click submit - The page refreshes as their is no code behind the form.
+
+4. Footer: 
+    1. When hovering over the 4 links at the bottom, the link changes from white to blue.
+    2. When clicking the Facebook link - you are taken to the No Boundaries Facebook page. 
+    3. When clicking the Instagram link - you are taken to the No Boundaries Instagram page. 
+    4. When clicking the Youtube link - you are taken to the No Boundaries Youtube page. 
+    5. When clicking the Twitter link - you are taken to Twitter.      
+
+
+
+### Cross Platform Testing
+
+I have used the following browsers to test my site:
+1. Google Chrome - Version 83.0.4103.61 
+2. Mozilla Firefox - Version 76.0.1
+3. Microsoft Edge - Version 44.18362.449.0
+
+The only bug I found when testing across the different platforms was that the placeholder text on the contact page did not display in white as intended, but instead displayed in grey. This made it hard to read. I found a fix for this on W3School so applied this in the CSS which worked. 
+
+### Device Testing
+
+I have used Chromes device similator to test how it looked on different devices and at different sizes. 
+I checked the following devices:
+1. iPad pro
+2. iPad
+3. iPhone X
+4. iPhone 6/7/8 Plus
+5. iPhone 6/7/8
+6. Kindle Fire HDX
+7. Galaxy S5
+
+These were tested both landscape and portrait.
+
+As well as this, I used my Huawei P20 to test the page on mobile.
+
+## Validating Code
+
+I have used the following to validate my code:
+1. [W3C HTML Validator](https://validator.w3.org/) - This was used to test all the pages' HTML.
+2. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - This was used to test the CSS.
+
+The only issue I had was in the CSS Validator which said that some border colors were the same as the background color for some boxes.
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I used GitHub and Gitpod to create all pages and css on my site. This was initially started with the Code Institute Template.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+This was used for version control and regularly pushed changes using the terminal in Gitpod.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+One issue I encountered with this, was accidently closing a page having not pushed my changes through. I lost some work from this and had to re-do this. This turned out as a bit of a blessing as the page looked better the second time in doing it, but also taught me to make sure to push changes through regularly. 
+
+To deploy the page and make it viewable to others, I used Github pages:
+1. In the No Boundaries project I clicked on the settings tab.
+2. I scrolled down to Github Pages and changed the Source to Master Branch.
+3. This meant I could then share my page with others using the following link: [No Boundaries](https://carterstefan.github.io/no-boundaries/)
+
 
 ### Content
-All text used on this website was taken from the existing [No-Boundaries] (https://noboundaries2020.com/) page.
+All text used on this website was taken from the existing [No-Boundaries] (https://noboundaries2020.com/) page. In parts, some of the text has been amended / adapted.
 
 ### Acknowledgements
 
@@ -147,4 +217,6 @@ All text used on this website was taken from the existing [No-Boundaries] (https
 
 - I would like to thank Joel Douglas for the input on this project.
 
-- Also, a thankyou to all the Code Institute team. The course and training videos have helped me learn so much in a short space of time.
+- A thank you to Nick Hampshire and Adam London for letting me use their business to base my project on.
+
+- Also, a big thankyou to all the Code Institute team. The course and training videos have helped me learn so much in a short space of time.
