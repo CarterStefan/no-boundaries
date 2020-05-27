@@ -209,9 +209,8 @@ body {
   color: #43aed9;
 
   text-align: justify;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 20px;
+  
+  padding: 10px;
 }
 
 /* ------------------------------------------------------ Did you know Section  */
@@ -544,6 +543,18 @@ body {
 
 /* Researched how to change text color for placeholder text - Code taken from W3 schools */
 ::placeholder {
+  color: #f2f2f2;
+  padding: 5px;
+  width: 100%;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #f2f2f2;
+  padding: 5px;
+  width: 100%;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #f2f2f2;
   padding: 5px;
   width: 100%;
