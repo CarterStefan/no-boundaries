@@ -13,7 +13,8 @@ body {
 }
 
 body, html {
-    height:100%; /* ADD this */
+    height: 100%;
+    width: 100%;
     font-family: "Raleway", sans-serif;
 }
 
