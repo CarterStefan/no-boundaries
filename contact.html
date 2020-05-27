@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
 
-  <body>
+  <body style="min-height: 100vh; display: flex; flex-direction: column;">
     <header>
       <!-- Logo And Navbar-->
       <nav class="navbar navbar-light navbar-expand-sm">
@@ -59,7 +59,7 @@
     </header>
 
     <!-- Contact page -->
-
+    <section>
     <div class="container-fluid main-image-container-contact">
       <div class="row">
         <div class="col-12">
@@ -73,7 +73,7 @@
           <!-- Contact Form -->
 
           <div class="row">
-            <div class="col-10 offset-1">
+            <div class="col-12">
               <div class="sign-up-box">
                 <form>
                   <input
@@ -115,10 +115,14 @@
         </div>
       </div>
     </div>
+    </section>
+
+    <div style="flex-grow:1"></div>
 
     <!-- Footer -->
 
     <footer>
+    <div class="container-fluid full-width-footer">
       <div class="row">
         <div class="col-12">
           <ul class="footer-element footer-text">
@@ -150,6 +154,7 @@
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </footer>
 

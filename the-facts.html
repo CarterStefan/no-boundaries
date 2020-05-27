@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Why We Do It</title>
+    <title>The Facts</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
 
-  <body>
+  <body style="min-height: 100vh; display: flex; flex-direction: column;">
     <header>
       <!-- Logo And Navbar-->
       <nav class="navbar navbar-light navbar-expand-sm">
@@ -145,11 +145,14 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>
+
+      <div style="flex-grow:1"></div>
+    
 
     <footer>
-      <div class="row">
-        <div class="col-12">
+  
+      <div class="container-fluid full-width--footer">
           <ul class="footer-element footer-text">
             <li>
               <a
@@ -179,8 +182,8 @@
             </li>
           </ul>
         </div>
-      </div>
     </footer>
+    
     <!-- Scripts taken from bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

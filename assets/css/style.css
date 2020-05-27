@@ -2,11 +2,19 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;900&display=swap");
 
+/*
 body {
   font-family: "Raleway", sans-serif;
 }
+*/
+
 .uppercase {
   text-transform: uppercase;
+}
+
+body, html {
+    height:100%; /* ADD this */
+    font-family: "Raleway", sans-serif;
 }
 
 /* ------------------------------------------------------ Colors */
@@ -56,6 +64,7 @@ body {
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
+  
 }
 
 /* ------------------------------------------------------ Logo */
@@ -492,14 +501,14 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  height: 90%;
+  height: 100%;
 }
 
 .contact-us-title {
   color: #f2f2f2;
   font-weight: 700;
   text-align: center;
-  padding: 1em;
+  padding: 20px auto;
 }
 
 .sign-up-box {
@@ -513,7 +522,6 @@ body {
   font-weight: bold;
   padding: 10px;
   text-align: left;
-  float: left;
 }
 
 .form-text {
@@ -596,10 +604,6 @@ label {
   background-color: #3c3d40;
   color: #f2f2f2;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #f2f2f2;
-  border-radius: 50px;
   width: 100%;
 }
 
@@ -633,4 +637,8 @@ label {
   border: 1px solid #43aed9;
   border-radius: 50%;
   transition-duration: 0.5s;
+}
+
+.full-width-footer{
+    padding: 0px;
 }
