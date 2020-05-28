@@ -133,7 +133,7 @@ I created a page for the team so that the people would be introduced to the memb
 A facts page was also created to show why the business is created and that the team share the same passions and concerns as the parents / teachers / councilors wanting to run an after school club.
 
 ![readme-the-facts](https://user-images.githubusercontent.com/64138643/83132383-3a9df800-a0d9-11ea-846e-57e16776caca.PNG)
-![readme-the-facts-hover](https://user-images.githubusercontent.com/64138643/83132380-3a056180-a0d9-11ea-935f-969f21dbe943.PNG)
+![readme-the-facts-hover](https://user-images.githubusercontent.com/64138643/83132918-feb76280-a0d9-11ea-9e91-c6fc063412d4.PNG)
 
 A contact form was made on the last page. This was so that the users of the site can get in touch should they require more information or want to make a booking. 
 
