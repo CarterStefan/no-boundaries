@@ -121,14 +121,23 @@ I made sure the site looked professional by using a simple font, and a consisten
 
 ![Homepage](https://user-images.githubusercontent.com/64138643/83132083-c2cfcd80-a0d8-11ea-8d6a-c7ce8ae9424b.PNG)
 
-
 I used a softer / pastel color scheme to accomodate for the friendly aspect of the business. Also, using rouinded edges on all boxes backed this up so the site did not look too clunky. 
+
+![readme-about-us](https://user-images.githubusercontent.com/64138643/83132388-3b368e80-a0d9-11ea-8e08-cc7f5af4dfab.PNG)
 
 I created a page for the team so that the people would be introduced to the members and will get to know more about them before enquring.
 
-A stats page was also created to show why the business is created and that the team share the same passions and concerns as the parents / teachers / councilors wanting to run an after school club.
+![readme-meet-the-team](https://user-images.githubusercontent.com/64138643/83132386-3b368e80-a0d9-11ea-9607-fe7e56cb2d13.PNG)
+![readme-meet-the-team-mobile](https://user-images.githubusercontent.com/64138643/83132384-3b368e80-a0d9-11ea-85b5-2e72ec16b965.PNG)
+
+A facts page was also created to show why the business is created and that the team share the same passions and concerns as the parents / teachers / councilors wanting to run an after school club.
+
+![readme-the-facts](https://user-images.githubusercontent.com/64138643/83132383-3a9df800-a0d9-11ea-846e-57e16776caca.PNG)
+![readme-the-facts-hover](https://user-images.githubusercontent.com/64138643/83132380-3a056180-a0d9-11ea-935f-969f21dbe943.PNG)
 
 A contact form was made on the last page. This was so that the users of the site can get in touch should they require more information or want to make a booking. 
+
+![readme-contact](https://user-images.githubusercontent.com/64138643/83132376-38d43480-a0d9-11ea-8dd5-a701e9b0c2e3.PNG)
 
 All the pages are linked through the top nav bar, and can easily be navigated throughout the site. It is consistent across all pages so the user can easily navigated between the pages at any point. A consistent look also aids with the user being able to go from page to page with ease.
 
