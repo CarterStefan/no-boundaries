@@ -198,6 +198,8 @@ As well as this, I used my Huawei P20 to test the page on mobile.
 
 After asking for feedback through the Peer-Code-Review thread on Slack, it was brought to my attention that the footer was directly underneath content on pages which did not have a lot of content, which was not common practice. This was happening on The facts and content pages. After looking through various pages of people having the same issue, I found a fix that worked and applied this.
 
+I also had an issue on the facts page when simulating the iPhone 5s device, where the boxes would overflow the right side of the page. I set a media query for screensizes up to 320px to make the boxes and text smaller, which solved the issue.
+
 ## Validating Code
 
 I have used the following to validate my code:
