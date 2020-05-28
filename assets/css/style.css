@@ -1,12 +1,8 @@
-/* ------------------------------------------------------ Fonts */
+/* ------------------------------------------------------ FONTS */
 
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;900&display=swap");
 
-/*
-body {
-  font-family: "Raleway", sans-serif;
-}
-*/
+
 
 .uppercase {
   text-transform: uppercase;
@@ -18,7 +14,7 @@ body, html {
     font-family: "Raleway", sans-serif;
 }
 
-/* ------------------------------------------------------ Colors */
+/* ------------------------------------------------------ COLORS */
 
 .no-boundaries-grey {
   color: #545454;
@@ -60,7 +56,7 @@ body, html {
   color: rgba(216, 82, 82, 1);
 }
 
-/* ------------------------------------------------------ Container */
+/* ------------------------------------------------------ CONTAINER */
 
 .no-gutters {
   margin-right: 0;
@@ -68,7 +64,7 @@ body, html {
   
 }
 
-/* ------------------------------------------------------ Logo */
+/* ------------------------------------------------------ LOGO */
 
 .logo-text {
   font-family: "Luckiest Guy", cursive;
@@ -94,7 +90,7 @@ body, html {
   color: #f26052;
 }
 
-/* ------------------------------------------------------ Navbar */
+/* ------------------------------------------------------ NAVBAR */
 
 .nav {
   padding-left: 10px;
@@ -145,12 +141,11 @@ body, html {
   }
 }
 
-/* ------------------------------------------------------ Homepage */
+/* ------------------------------------------------------ HOMEPAGE */
 
-/* ------------------------------------------------------ Hero Image */
+/* ------------------------------------------------------ HERO IMAGE - HOMEPAGE */
 
 /* Code taken from css-tricks with help from Hero Image lesson on code institue */
-
 .main-image-container {
   padding: 5px 0px;
   background: url("../images/ball_bw.jpg") no-repeat center center;
@@ -193,7 +188,7 @@ body, html {
   font-size: 100%;
 }
 
-/* ------------------------------------------------------ Introduction Section */
+/* ------------------------------------------------------ INTRODUCTION SECTION - HOMEPAGE */
 
 .introduction-box {
   color: #f2f2f2;
@@ -222,7 +217,7 @@ body, html {
   padding: 10px;
 }
 
-/* ------------------------------------------------------ Did you know Section  */
+/* ------------------------------------------------------ DID YOU KNOW SECTION - HOMEPAGE  */
 
 .did-you-know-title {
   color: #f2f2f2;
@@ -256,7 +251,7 @@ body, html {
   }
 }
 
-/* ------------------------------------------------------ Well Being Section */
+/* ------------------------------------------------------ WELL BEING SECTION - HOMEPAGE */
 
 .wellbeing-title {
   color: #d95252;
@@ -283,9 +278,9 @@ body, html {
   margin-bottom: 0px;
 }
 
-/* ------------------------------------------------------ About us Page */
+/* ------------------------------------------------------ ABOUT US PAGE */
 
-/* ------------------------------------------------------ About us Section */
+/* ------------------------------------------------------ ABOUT US SECTION - ABOUT US PAGE */
 
 .about-us-title {
   color: #43aed9;
@@ -326,7 +321,7 @@ body, html {
   margin: 10px auto;
 }
 
-/* ------------------------------------------------------ Active Section */
+/* ------------------------------------------------------ ACTIVE SECTION - ABOUT US PAGE */
 
 .active-letter-box {
   height: 125px;
@@ -370,7 +365,7 @@ body, html {
   }
 }
 
-/* ------------------------------------------------------ Meet The Team Page */
+/* ------------------------------------------------------ MEET THE TEAM PAGE */
 
 .meet-the-team-title {
   color: #d95252;
@@ -430,7 +425,7 @@ body, html {
   }
 }
 
-/* ------------------------------------------------------ The Facts Page */
+/* ------------------------------------------------------ THE FACTS PAGE */
 
 .why-us-title {
   color: #3c3d40;
@@ -460,7 +455,6 @@ body, html {
 }
 
 /* .overlay .fact-box:hover .text css taken from https://www.w3schools.com/howto/howto_css_image_overlay.asp */
-
 .overlay {
   position: absolute;
   top: 0;
@@ -490,10 +484,9 @@ body, html {
   text-align: left;
 }
 
-/* ------------------------------------------------------ Contact Us page */
+/* ------------------------------------------------------ CONTACT US PAGE */
 
 /* Used same code as jumbotron on homepage for the image background - Taken from css tricks with code institute tutorial */
-
 .main-image-container-contact {
   padding: 5px 0px;
   background: url("../images/ball_bw.jpg") no-repeat center center;
@@ -547,7 +540,8 @@ body, html {
   padding: 0px;
 }
 
-/* Researched how to remove scrollbar on text box - Code taken from W3 schools */
+/* Researched how to remove scrollbar on text box - Code taken from StackOverflow
+https://stackoverflow.com/questions/19424887/remove-scrollbars-from-textarea */
 .scroll::-webkit-scrollbar {
   display: none;
 }
@@ -563,7 +557,8 @@ body, html {
   margin-left: 33%;
 }
 
-/* Researched how to change text color for placeholder text - Code taken from W3 schools */
+/* Researched how to change text color for placeholder text - Code taken from W3 schools
+https://www.w3schools.com/howto/howto_css_placeholder.asp */
 ::placeholder {
   color: #f2f2f2;
   padding: 5px;
@@ -584,7 +579,8 @@ body, html {
   width: 100%;
 }
 
-/* Researched how to remove blue border from input boxes - Code taken from Stackoverflow schools */
+/* Researched how to remove blue border from input boxes - Code taken from Stackoverflow 
+https://stackoverflow.com/questions/7648898/how-to-get-rid-of-blue-outer-border-when-clicking-on-a-form-input-field */
 input:focus {
   outline: none;
 }
@@ -597,7 +593,7 @@ label {
   margin: 5px auto;
 }
 
-/* ------------------------------------------------------ Footer*/
+/* ------------------------------------------------------ FOOTER */
 
 
 .footer-element {
