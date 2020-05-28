@@ -668,3 +668,7 @@ label {
 .full-width-footer{
     padding: 0px;
 }
+
+a:hover{
+    text-decoration: none;
+}
