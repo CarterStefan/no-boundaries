@@ -472,7 +472,7 @@ body, html {
   opacity: 1;
 }
 
-.text {
+.fact-text {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -483,6 +483,33 @@ body, html {
   transform: translate(-50%, -50%);
   text-align: left;
 }
+
+
+@media (max-width: 320px) {
+ .fact-text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.fact-box {
+  position: relative;
+  border: 1px solid #3c3d40;
+  background-color: #3c3d40;
+  color: #43aed9;
+  border-radius: 20px;
+  margin: 10px 0px;
+  text-align: justify;
+  height: 280px;
+  width: 280px;
+}
+}
+
 
 /* ------------------------------------------------------ CONTACT US PAGE */
 
