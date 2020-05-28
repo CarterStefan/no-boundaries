@@ -119,7 +119,8 @@ The key points from my user stories were to make sure the website showed that th
 
 I made sure the site looked professional by using a simple font, and a consistent color scheme throughout the site to keep on brand across all pages.
 
-[Homepage image](./assets/images/homepage-readme.png)
+![Homepage](https://user-images.githubusercontent.com/64138643/83132083-c2cfcd80-a0d8-11ea-8d6a-c7ce8ae9424b.PNG)
+
 
 I used a softer / pastel color scheme to accomodate for the friendly aspect of the business. Also, using rouinded edges on all boxes backed this up so the site did not look too clunky. 
 
