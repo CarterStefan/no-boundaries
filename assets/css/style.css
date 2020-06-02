@@ -380,8 +380,7 @@ body, html {
   background-color: #d95252;
   color: #f2f2f2;
   border-radius: 20px;
-
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
   text-align: justify;
   min-height: 150px;
@@ -391,14 +390,14 @@ body, html {
   height: 300px;
   width: 300px;
   display: block;
-  margin: 0px auto;
+  margin: 20px auto;
 }
 
 .name-box {
   border: 2px solid #d95252;
   color: #d95252;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -413,7 +412,7 @@ body, html {
     border: 2px solid #d95252;
     color: #d95252;
     border-radius: 20px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     height: 300px;
   }
@@ -424,6 +423,15 @@ body, html {
     padding-top: 50px;
     font-size: 300%;
   }
+}
+
+hr{
+    width: 70%;
+    border: 1px solid #3c3d40;
+    background-color:  #3c3d40;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------ THE FACTS PAGE */
@@ -623,6 +631,9 @@ label {
 
 /* ------------------------------------------------------ FOOTER */
 
+.footer{
+    margin-top: 30px;
+}
 
 .footer-element {
   padding: 10px;
