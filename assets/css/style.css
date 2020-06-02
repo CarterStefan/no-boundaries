@@ -2,16 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;900&display=swap");
 
-
-
 .uppercase {
   text-transform: uppercase;
 }
 
-body, html {
-    height: 100%;
-    width: 100%;
-    font-family: "Raleway", sans-serif;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
 }
 
 /* ------------------------------------------------------ COLORS */
@@ -61,7 +60,6 @@ body, html {
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-  
 }
 
 /* ------------------------------------------------------ LOGO */
@@ -149,13 +147,13 @@ body, html {
 /* Code taken from css-tricks with help from Hero Image lesson on code institue */
 .main-image-container {
   padding: 5px 0px;
-  background: url("../images/ball_bw.jpg") no-repeat center center;
+  background: url("../images/ball_two.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  margin-bottom: 20px;
+  min-height: 550px;
 }
 
 .jumbotron {
@@ -184,7 +182,7 @@ body, html {
 
 .homepage-tagline {
   text-align: center;
-  color: #43aed9;
+  color: #f2f2f2;
   font-weight: 600;
   font-size: 100%;
 }
@@ -290,6 +288,10 @@ body, html {
   padding: 1em;
 }
 
+.about-us-sub {
+    
+}
+
 .about-us-text {
   color: #43aed9;
   border-radius: 20px;
@@ -311,7 +313,8 @@ body, html {
   padding: 40px 20px;
   line-height: 2em;
   min-height: 300px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: justify;
 }
 
@@ -319,10 +322,18 @@ body, html {
   height: 300px;
   width: 300px;
   display: block;
-  margin: 10px auto;
+  margin: 40px auto;
 }
 
 /* ------------------------------------------------------ ACTIVE SECTION - ABOUT US PAGE */
+
+.active-ethos-box {
+  border: 2px solid #3c3d40;
+  background-color: #3c3d40;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  padding: 30px 10px;
+}
 
 .active-letter-box {
   height: 125px;
@@ -335,7 +346,7 @@ body, html {
 
 .active-first-letter {
   font-family: "Luckiest Guy", cursive;
-  color: #f2f2f2;
+  color: #3c3d40;
   font-size: 80px;
   text-align: center;
 }
@@ -364,6 +375,15 @@ body, html {
     height: 125px;
     font-size: 20px;
   }
+}
+
+.active-hr {
+  width: 80%;
+  border: 2px solid #43aed9;
+  background-color: #43aed9;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* ------------------------------------------------------ MEET THE TEAM PAGE */
@@ -425,13 +445,13 @@ body, html {
   }
 }
 
-hr{
-    width: 70%;
-    border: 1px solid #3c3d40;
-    background-color:  #3c3d40;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+hr {
+  width: 70%;
+  border: 1px solid #3c3d40;
+  background-color: #3c3d40;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------ THE FACTS PAGE */
@@ -493,32 +513,30 @@ hr{
   text-align: left;
 }
 
-
 @media (max-width: 320px) {
- .fact-text {
-  color: white;
-  font-size: 18px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: left;
+  .fact-text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  .fact-box {
+    position: relative;
+    border: 1px solid #3c3d40;
+    background-color: #3c3d40;
+    color: #43aed9;
+    border-radius: 20px;
+    margin: 10px 0px;
+    text-align: justify;
+    height: 280px;
+    width: 280px;
+  }
 }
-.fact-box {
-  position: relative;
-  border: 1px solid #3c3d40;
-  background-color: #3c3d40;
-  color: #43aed9;
-  border-radius: 20px;
-  margin: 10px 0px;
-  text-align: justify;
-  height: 280px;
-  width: 280px;
-}
-}
-
 
 /* ------------------------------------------------------ CONTACT US PAGE */
 
@@ -631,8 +649,8 @@ label {
 
 /* ------------------------------------------------------ FOOTER */
 
-.footer{
-    margin-top: 30px;
+.footer {
+  margin-top: 30px;
 }
 
 .footer-element {
@@ -676,10 +694,10 @@ label {
   transition-duration: 0.5s;
 }
 
-.full-width-footer{
-    padding: 0px;
+.full-width-footer {
+  padding: 0px;
 }
 
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
