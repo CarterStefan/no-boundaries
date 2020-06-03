@@ -103,7 +103,6 @@ html {
   font-weight: 700;
   border: 1px solid transparent;
   border-radius: 20px;
-  padding-left: 10px;
 }
 
 .nav-link:hover {
@@ -112,7 +111,6 @@ html {
   border: 1px solid #43aed9;
   border-radius: 20px;
   transition-duration: 0.5s;
-  padding-left: 10px;
 }
 
 .nav-item {
@@ -153,7 +151,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  min-height: 550px;
+  min-height: 600px;
 }
 
 .jumbotron {
@@ -289,7 +287,6 @@ html {
 }
 
 .about-us-sub {
-    
 }
 
 .about-us-text {
@@ -654,6 +651,16 @@ label {
 }
 
 .footer-element {
+  padding: 30px 10px 10px 10px;
+  background-color: #3c3d40;
+  color: #f2f2f2;
+  text-align: center;
+  width: 100%;
+  margin-bottom: -1px;
+  
+}
+
+.copyright-text {
   padding: 10px;
   background-color: #3c3d40;
   color: #f2f2f2;
@@ -665,7 +672,6 @@ label {
 .footer-text {
   text-align: center;
   list-style-type: none;
-  padding: 2px;
   text-decoration: none;
 }
 
@@ -678,7 +684,7 @@ label {
   color: #f2f2f2;
   font-size: 150%;
   margin: 2%;
-  padding: 2%;
+  padding: 10px;
   border: 1px solid #f2f2f2;
   border-radius: 50%;
 }
@@ -688,7 +694,7 @@ label {
   color: #43aed9;
   font-size: 150%;
   margin: 2%;
-  padding: 2%;
+  padding: 10px;
   border: 1px solid #43aed9;
   border-radius: 50%;
   transition-duration: 0.5s;
@@ -701,3 +707,5 @@ label {
 a:hover {
   text-decoration: none;
 }
+
+

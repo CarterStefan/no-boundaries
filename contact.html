@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/3dcc7a92aa.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  </head>
 
-  <!-- body style attributes taken from StackOverflow as fix to the footer not being at the bottom of the page
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/3dcc7a92aa.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<!-- body style attributes taken from StackOverflow as fix to the footer not being at the bottom of the page
     https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing
     -->
 
-  <body style="min-height: 100%; display: flex; flex-direction: column;">
-    <header>
-      <!-- LOGO AND NAVBAR -->
+<body style="min-height: 100%; display: flex; flex-direction: column;">
+	<header>
+		<!-- LOGO AND NAVBAR -->
 
-      <nav class="navbar navbar-light navbar-expand-sm">
-        <a class="logo-text text-nowrap" href="index.html">
-          N<span class="logo-o">o</span> Boundaries
-        </a>
+		<nav class="navbar navbar-light navbar-expand-sm">
+			<a class="logo-text text-nowrap" href="index.html">
+				N<span class="logo-o">o</span> Boundaries
+			</a>
 
-        <!-- navbar code created with help following the Bootstrap lesson on Code Institute -->
-        <button
+			<!-- navbar code created with help following the Bootstrap lesson on Code Institute -->
+			<button
           class="navbar-toggler ml-auto"
           type="button"
           data-toggle="collapse"
@@ -44,46 +38,46 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="meet-the-team.html">Meet The Team</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="the-facts.html">The Facts</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="meet-the-team.html">Meet The Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="the-facts.html">The Facts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-    <!-- BACKGROUND IMAGE -->
+	<!-- BACKGROUND IMAGE -->
 
-    <section>
-      <div class="container-fluid main-image-container-contact">
-        <div class="row">
-          <div class="col-12">
-            <div class="row">
-              <div class="col-12">
-                <!-- TITLE OF PAGE -->
+	<section>
+		<div class="container-fluid main-image-container-contact">
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12">
+							<!-- TITLE OF PAGE -->
 
-                <h2 class="contact-us-title">Contact Us</h2>
-              </div>
-            </div>
+							<h2 class="contact-us-title">Contact Us</h2>
+						</div>
+					</div>
 
-            <!-- CONTACT FORM -->
+					<!-- CONTACT FORM -->
 
-            <div class="row">
-              <div class="col-12">
-                <div class="sign-up-box">
-                  <form>
-                    <input
+					<div class="row">
+						<div class="col-12">
+							<div class="sign-up-box">
+								<form>
+									<input
                       class="form-text"
                       type="text"
                       name="name"
@@ -91,9 +85,9 @@
                       placeholder="Your Name"
                       required
                     />
-                    <br />
+									<br />
 
-                    <input
+									<input
                       class="form-text"
                       type="email"
                       name="email"
@@ -101,9 +95,9 @@
                       placeholder="Your Email"
                       required
                     />
-                    <br />
+									<br />
 
-                    <textarea
+									<textarea
                       class="form-text-comment scroll"
                       cols="10"
                       rows="10"
@@ -113,81 +107,71 @@
                       required
                     ></textarea>
 
-                    <input class="form-button" type="submit" value="Send" />
-                    <br />
+									<input class="form-button" type="submit" value="Send" />
+									<br />
                   </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- div style taken from Stack Overflow when researchign how to create space to push footer to the bottom of the page 
+	<!-- div style taken from Stack Overflow when researchign how to create space to push footer to the bottom of the page 
     https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing -->
-    <div style="flex-grow: 1;"></div>
+	<div style="flex-grow: 1;"></div>
 
-    <!-- FOOTER -->
+	<!-- FOOTER -->
 
-    <footer>
-      <div class="container-fluid full-width-footer">
-        <div class="row">
-          <div class="col-12">
-            <ul class="footer-element footer-text">
-              <li>
-                <a
-                  href="https://www.facebook.com/noboundaries.2020"
-                  target="_blank"
-                  ><i class="fab fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/channel/UCN8JG1nB0Axw9Mkw2VAQ0Hw"
-                  target="_blank"
-                  ><i class="fab fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">Youtube</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/noboundaries.2020/"
-                  target="_blank"
-                  ><i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="https://www.twitter.com" target="_blank"
-                  ><i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+	<footer>
+		<div class="row">
+			<div class="col-12">
+				<ul class="footer-element footer-text">
+					<li>
+						<a href="https://www.facebook.com/noboundaries.2020"
+							target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCN8JG1nB0Axw9Mkw2VAQ0Hw"
+							target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">Youtube</span></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/noboundaries.2020/"
+							target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span></a>
+					</li>
+					<li>
+						<a href="https://www.twitter.com"
+							target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span></a>
+					</li>
+				</ul>
+			</div>
 
-    <!-- Scripts taken from bootstrap - https://getbootstrap.com/docs/4.5/getting-started/introduction/  -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
+			<div class="col-12">
+				<div class="copyright-text">
+					<p> &copy; copyright 2020 Stefan Carter. All Rights Reserved </p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<!-- Scripts taken from bootstrap - https://getbootstrap.com/docs/4.5/getting-started/introduction/  -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+</body>
+
 </html>
