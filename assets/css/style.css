@@ -175,7 +175,7 @@ html {
 .jumbotron-paragraph-large {
   text-align: center;
   color: #f2f2f2;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 300%;
 }
 
@@ -424,12 +424,11 @@ html {
 
 .about-us-title {
   color: #43aed9;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding: 1em;
 }
 
-/* ----------------------------------New About Us Section */
 
 .method-image-container {
   padding: 5px 0px;
@@ -476,56 +475,22 @@ html {
 
 .new-about-us-box {
   border-radius: 20px;
-  border: 1px solid #43aed9;
-  background-color: #43aed9;
+  border: 1px solid rgba(67, 174, 216, 0.8);
+  background-color: rgba(67, 174, 216, 0.8);
   color: #f2f2f2;
   font-weight: bold;
-  padding: 40px;
+  padding: 20px;
   line-height: 2em;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: 20px;
   text-align: justify;
-}
-
-/* ---------------------------------- Old About Us Section */
-.about-us-text {
-  color: #43aed9;
-  border-radius: 20px;
-  padding: 3em;
-  text-align: justify;
-  background-color: #f2f2f2;
-  font-weight: 600;
-  border: 1px solid #43aed9;
-  line-height: 2em;
-  min-height: 400px;
-  margin-bottom: 10px;
-}
-
-.about-us-box {
-  border-radius: 20px;
-  border: 1px solid #43aed9;
-  background-color: #43aed9;
-  color: #f2f2f2;
-  padding: 40px 20px;
-  line-height: 2em;
-  min-height: 300px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: justify;
-}
-
-.about-us-img {
-  height: 300px;
-  width: 300px;
-  display: block;
-  margin: 40px auto;
 }
 
 .about-us-cta {
   color: #3c3d40;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   line-height: 30px;
   font-weight: bold;
 }
