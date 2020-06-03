@@ -429,6 +429,65 @@ html {
   padding: 1em;
 }
 
+/* ----------------------------------New About Us Section */
+
+.method-image-container {
+  padding: 5px 0px;
+  background: url("../images/physical_bw.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 20px;
+}
+
+.goal-image-container {
+  padding: 5px 0px;
+  background: url("../images/mental_bw.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 20px
+}
+
+.belief-image-container {
+  padding: 5px 0px;
+  background: url("../images/social_bw.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 20px;
+}
+
+.about-us-sub{
+    font-weight: 900;
+    font-size: 400%;
+    padding: 20px;
+    color: #f2f2f2;
+}
+
+.new-about-us-box {
+  border-radius: 20px;
+  border: 1px solid #43aed9;
+  background-color: #43aed9;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 2em;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+/* ---------------------------------- Old About Us Section */
 .about-us-text {
   color: #43aed9;
   border-radius: 20px;
@@ -461,6 +520,47 @@ html {
   display: block;
   margin: 40px auto;
 }
+
+.about-us-cta {
+  color: #3c3d40;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.about-us-button {
+  background-color: #43aed9;
+  border: 1px solid #43aed9;
+  border-radius: 20px;
+  color: #f2f2f2;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.about-us-button-text {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.about-us-button:hover {
+  background-color: #3c3d40;
+  border: 1px solid #3c3d40;
+  border-radius: 20px;
+  color: #43aed9;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.about-us-button-text:hover {
+  color: #43aed9;
+  text-decoration: none;
+}
+
+
 
 /* ------------------------------------------------------ ACTIVE SECTION - ABOUT US PAGE */
 
@@ -806,6 +906,7 @@ label {
   text-align: center;
   width: 100%;
   margin-bottom: 0px;
+  font-size: 50%;
 }
 
 .footer-text {
