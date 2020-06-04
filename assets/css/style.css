@@ -169,7 +169,7 @@ html {
   text-align: center;
   font-size: 200%;
   color: #f2f2f2;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .jumbotron-paragraph-large {
@@ -199,9 +199,10 @@ html {
   color: #d95252;
   background-color: #f2f2f2;
   text-decoration: none;
-  font-weight: 700;  
+  font-weight: 700;
   border-radius: 20px;
   padding: 5px;
+  white-space: nowrap;
 }
 
 .jumbotron-cta-link:hover {
@@ -212,7 +213,63 @@ html {
   border-radius: 20px;
   transition-duration: 0.5s;
   padding: 5px;
+  white-space: nowrap;
 }
+
+/* ------------------------------------------------------ DID YOU KNOW CONTAINER - HOMEPAGE */
+
+.did-you-know-container {
+  width: 100%;
+  background-color: #3c3d40;
+  margin-top: 20px;
+}
+
+.did-you-know-title {
+  color: #43aed9;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.did-you-know-quotes {
+  color: #43aed9;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .did-you-know-quotes {
+    color: #43aed9;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
+
+.did-you-know-cta-link {
+  color: #3c3d40;
+  background-color: #43aed9;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.did-you-know-cta-link:hover {
+  color: #3c3d40;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
 
 /* ------------------------------------------------------ INTRODUCTION SECTION - HOMEPAGE */
 
@@ -228,15 +285,16 @@ html {
 }
 
 .introduction-section {
-  height: 650px;
-  padding-top: 30px;
+  height: 220px;
   padding-left: 0px;
   padding-right: 20px;
+  color: #3c3d40;
+  border-bottom: 2px solid #3c3d40;
 }
 
 @media (max-width: 767px) {
   .introduction-section {
-    height: 650px;
+    height: 250px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 20px;
@@ -246,21 +304,20 @@ html {
 .homepage-intro-title {
   font-weight: bold;
   color: #3c3d40;
-  padding-top: 15px;
-  padding-left: 5px;
+  padding: 15px;
   margin: 0px;
 }
 
 .introduction-paragraph {
   text-align: justify;
-  padding: 0px 20px 0px 5px;
+  padding: 0px 20px 0px 15px;
   color: #3c3d40;
 }
 
 @media (min-width: 992px) {
   .introduction-paragraph {
     text-align: justify;
-    padding: 15px 10px;
+    padding: 0px 15px;
     color: #3c3d40;
   }
 }
@@ -269,7 +326,7 @@ html {
   font-weight: bold;
   text-decoration: none;
   color: #d95252;
-  padding-top: 10px;
+  line-height: 50px;
 }
 
 .introduction-link:hover {
@@ -279,7 +336,6 @@ html {
 }
 
 .introduction-hr {
-  width: 1-0%;
   border: 1px solid #3c3d40;
   background-color: #3c3d40;
   border-radius: 10px;
@@ -287,57 +343,7 @@ html {
   margin-bottom: 5px;
 }
 
-.introduction-box {
-  color: #f2f2f2;
-  border-radius: 20px;
-  text-align: justify;
-  background-color: #43aed9;
-  border: 1px solid #43aed9;
-  padding: 20px;
-  font-weight: bold;
-  margin: 20px 0px;
-}
-
-.introduction-title {
-  color: #3c3d40;
-  font-weight: 700;
-  text-align: center;
-  padding: 1em;
-}
-
 /* ------------------------------------------------------ DID YOU KNOW SECTION - HOMEPAGE  */
-
-.did-you-know-title {
-  color: #f2f2f2;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-
-.did-you-know-container {
-  width: 100%;
-  background-color: #3c3d40;
-  margin-top: 20px;
-}
-
-.did-you-know-quotes {
-  color: #f2f2f2;
-  font-weight: 400;
-  padding: 1em;
-  margin-bottom: 0px;
-}
-
-@media (min-width: 768px) {
-  .did-you-know-quotes {
-    color: #f2f2f2;
-    font-weight: 400;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-    height: 200px;
-    margin-bottom: 20px;
-  }
-}
 
 /* ------------------------------------------------------ WELL BEING SECTION - HOMEPAGE */
 
@@ -373,13 +379,17 @@ html {
   margin-bottom: 100px;
   line-height: 30px;
   font-weight: bold;
+  background-color: #d95252;
+  min-height: 50px;
+  padding: 15px;
+  width: 100%;
 }
 
 .wellbeing-cta-link {
   color: #f2f2f2;
   background-color: #d95252;
   text-decoration: none;
-  font-weight: 700;  
+  font-weight: 700;
   border-radius: 20px;
   padding: 5px;
 }
@@ -387,7 +397,7 @@ html {
 .wellbeing-cta-link:hover {
   text-decoration: none;
   color: #f2f2f2;
-  background-color:#3c3d40;
+  background-color: #3c3d40;
   font-weight: 700;
   border-radius: 20px;
   transition-duration: 0.5s;
@@ -404,7 +414,6 @@ html {
   text-align: center;
   padding: 1em;
 }
-
 
 .method-image-container {
   padding: 5px 0px;
@@ -427,7 +436,7 @@ html {
   background-size: cover;
   width: 100%;
   min-height: 700px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .belief-image-container {
@@ -442,11 +451,11 @@ html {
   margin-bottom: 20px;
 }
 
-.about-us-sub{
-    font-weight: 900;
-    font-size: 400%;
-    padding: 20px;
-    color: #f2f2f2;
+.about-us-sub {
+  font-weight: 900;
+  font-size: 400%;
+  padding: 20px;
+  color: #f2f2f2;
 }
 
 .new-about-us-box {
@@ -469,28 +478,31 @@ html {
   margin-bottom: 50px;
   line-height: 30px;
   font-weight: bold;
+  background-color: #43aed9;
+  min-height: 50px;
+  padding: 15px;
 }
 
 .about-us-cta-link {
   color: #f2f2f2;
   background-color: #43aed9;
   text-decoration: none;
-  font-weight: 700;  
+  font-weight: 700;
   border-radius: 20px;
   padding: 5px;
+  white-space: nowrap;
 }
 
 .about-us-cta-link:hover {
   text-decoration: none;
   color: #43aed9;
-  background-color:#3c3d40;
+  background-color: #3c3d40;
   font-weight: 700;
   border-radius: 20px;
   transition-duration: 0.5s;
   padding: 5px;
+  white-space: nowrap;
 }
-
-
 
 /* ------------------------------------------------------ ACTIVE SECTION - ABOUT US PAGE */
 
