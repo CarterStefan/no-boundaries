@@ -571,6 +571,13 @@ html {
 
 /* ------------------------------------------------------ NEW MEET THE TEAM PAGE */
 
+.meet-the-team-title {
+  color: #d95252;
+  font-weight: 900;
+  text-align: center;
+  padding: 1em;
+}
+
 .meet-the-team-adam-image {
   padding: 5px 0px;
   background: url("../images/adam_square_bw.jpg") no-repeat center center;
@@ -632,7 +639,8 @@ html {
   padding-left: 0px;
   padding-right: 20px;
   color: #3c3d40;
-  border-bottom: 2px solid #3c3d40;
+  border-top: 2px solid #3c3d40;
+
   background-color: #f2f2f2;
 }
 
@@ -641,7 +649,7 @@ html {
   padding-left: 0px;
   padding-right: 20px;
   color: #3c3d40;
-  border-bottom: 2px solid #3c3d40;
+  border-top: 2px solid #3c3d40;
   background-color: #f2f2f2;
 }
 
@@ -659,80 +667,8 @@ html {
   font-weight: bold;
 }
 
-.nick-padding{
-    padding: 15px;
-}
-
-/* ------------------------------------------------------ OLD MEET THE TEAM PAGE */
-
-.meet-the-team-title {
-  color: #d95252;
-  font-weight: 900;
-  text-align: center;
-  padding: 1em;
-}
-
-.meet-the-team-box {
-  border: 1px solid #d95252;
-  background-color: #d95252;
-  color: #f2f2f2;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 20px;
-  text-align: justify;
-  min-height: 150px;
-}
-
-.meet-the-team-img {
-  height: 300px;
-  width: 300px;
-  display: block;
-  margin: 20px auto;
-}
-
-.name-box {
-  border: 2px solid #d95252;
-  color: #d95252;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 10px;
-}
-
-.name-box h3 {
-  font-weight: 900;
-  text-align: center;
-  padding-top: 10px;
-}
-
-@media (min-width: 768px) {
-  .name-box {
-    border: 2px solid #d95252;
-    color: #d95252;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-    height: 300px;
-  }
-
-  .name-box h3 {
-    font-weight: 900;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 300%;
-  }
-}
-
-.meet-the-team-box h3 {
-  font-weight: 800;
-}
-
-.meet-us-hr {
-  width: 70%;
-  border: 1px solid #3c3d40;
-  background-color: #3c3d40;
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.nick-padding {
+  padding: 15px;
 }
 
 /* ------------------------------------------------------ THE FACTS PAGE */
@@ -867,7 +803,7 @@ html {
 
 .contact-us-title {
   color: #f2f2f2;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding: 20px;
 }
