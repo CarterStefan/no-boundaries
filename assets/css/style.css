@@ -1,6 +1,6 @@
 /* ------------------------------------------------------ FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:wght@400;700;800;900&display=swap");
 
 .uppercase {
   text-transform: uppercase;
@@ -11,6 +11,7 @@ html {
   height: 100%;
   width: 100%;
   font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
 }
 
 /* ------------------------------------------------------ COLORS */
@@ -221,7 +222,7 @@ html {
 .did-you-know-container {
   width: 100%;
   background-color: #3c3d40;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .did-you-know-title {
@@ -250,6 +251,10 @@ html {
   }
 }
 
+.blockquote {
+  margin-bottom: 0px;
+}
+
 .did-you-know-cta-link {
   color: #3c3d40;
   background-color: #43aed9;
@@ -270,7 +275,6 @@ html {
   white-space: nowrap;
 }
 
-
 /* ------------------------------------------------------ INTRODUCTION SECTION - HOMEPAGE */
 
 .homepage-meet-the-team {
@@ -290,6 +294,7 @@ html {
   padding-right: 20px;
   color: #3c3d40;
   border-bottom: 2px solid #3c3d40;
+  background-color: #f2f2f2;
 }
 
 @media (max-width: 767px) {
@@ -298,11 +303,12 @@ html {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 20px;
+    background-color: #f2f2f2;
   }
 }
 
 .homepage-intro-title {
-  font-weight: bold;
+  font-weight: 800;
   color: #3c3d40;
   padding: 15px;
   margin: 0px;
@@ -312,6 +318,7 @@ html {
   text-align: justify;
   padding: 0px 20px 0px 15px;
   color: #3c3d40;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -319,13 +326,14 @@ html {
     text-align: justify;
     padding: 0px 15px;
     color: #3c3d40;
+    font-weight: bold;
   }
 }
 
 .introduction-link {
   font-weight: bold;
   text-decoration: none;
-  color: #d95252;
+  color: #43aed9;
   line-height: 50px;
 }
 
@@ -379,7 +387,6 @@ html {
   margin-bottom: 100px;
   line-height: 30px;
   font-weight: bold;
-  background-color: #d95252;
   min-height: 50px;
   padding: 15px;
   width: 100%;
@@ -448,7 +455,6 @@ html {
   background-size: cover;
   width: 100%;
   min-height: 700px;
-  margin-bottom: 20px;
 }
 
 .about-us-sub {
@@ -474,8 +480,6 @@ html {
 .about-us-cta {
   color: #3c3d40;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
   line-height: 30px;
   font-weight: bold;
   background-color: #43aed9;
@@ -565,11 +569,105 @@ html {
   margin-bottom: 40px;
 }
 
-/* ------------------------------------------------------ MEET THE TEAM PAGE */
+/* ------------------------------------------------------ NEW MEET THE TEAM PAGE */
+
+.meet-the-team-adam-image {
+  padding: 5px 0px;
+  background: url("../images/adam_square_bw.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  position: relative;
+}
+
+.meet-the-team-adam-image:hover {
+  padding: 5px 0px;
+  background: url("../images/adam_square.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  transition-duration: 0.5s;
+}
+
+.meet-the-team-nick-image {
+  padding: 5px 0px;
+  background: url("../images/nick_square_bw.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  position: relative;
+}
+
+.meet-the-team-nick-image:hover {
+  padding: 5px 0px;
+  background: url("../images/nick_square.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  transition-duration: 0.5s;
+}
+
+.meet-the-team-name {
+  font-weight: 900;
+  font-size: 400%;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 20px;
+}
+
+.meet-the-team-section {
+  height: 154px;
+  padding-left: 0px;
+  padding-right: 20px;
+  color: #3c3d40;
+  border-bottom: 2px solid #3c3d40;
+  background-color: #f2f2f2;
+}
+
+.meet-the-team-section-about-me {
+  height: 198px;
+  padding-left: 0px;
+  padding-right: 20px;
+  color: #3c3d40;
+  border-bottom: 2px solid #3c3d40;
+  background-color: #f2f2f2;
+}
+
+.meet-the-team-question {
+  font-weight: 800;
+  color: #3c3d40;
+  padding: 10px;
+  margin: 0px;
+}
+
+.meet-the-team-paragraph {
+  text-align: justify;
+  padding: 0px 20px 0px 10px;
+  color: #3c3d40;
+  font-weight: bold;
+}
+
+.nick-padding{
+    padding: 15px;
+}
+
+/* ------------------------------------------------------ OLD MEET THE TEAM PAGE */
 
 .meet-the-team-title {
   color: #d95252;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding: 1em;
 }
@@ -601,7 +699,7 @@ html {
 }
 
 .name-box h3 {
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   padding-top: 10px;
 }
@@ -617,11 +715,15 @@ html {
   }
 
   .name-box h3 {
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     padding-top: 50px;
     font-size: 300%;
   }
+}
+
+.meet-the-team-box h3 {
+  font-weight: 800;
 }
 
 .meet-us-hr {
@@ -635,9 +737,9 @@ html {
 
 /* ------------------------------------------------------ THE FACTS PAGE */
 
-.why-us-title {
+.the-facts-title {
   color: #3c3d40;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding: 1em;
 }
@@ -715,6 +817,38 @@ html {
     height: 280px;
     width: 280px;
   }
+}
+
+.the-facts-cta {
+  color: #3c3d40;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: bold;
+  min-height: 50px;
+  padding: 15px;
+}
+
+.the-facts-cta-link {
+  color: #f2f2f2;
+  background-color: #43aed9;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.the-facts-cta-link:hover {
+  text-decoration: none;
+  color: #43aed9;
+  background-color: #3c3d40;
+  font-weight: 700;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  padding: 5px;
+  white-space: nowrap;
 }
 
 /* ------------------------------------------------------ CONTACT US PAGE */
