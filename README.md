@@ -79,6 +79,8 @@ I used Adobe Color to select the scheme for the website. The main color to be us
 ### Images
 
   The stock images used throughout the site were taken from the existing No Boundaries website. These are free to use images originally taken from [Pixabay](https://pixabay.com/)
+  
+  The homepage hero image was taken from [Unsplash](https://unsplash.com/photos/oDs_AxeR5g4)
 
   The images of the members of the team were sent to me by one of the directors of No Boundaries.
  
