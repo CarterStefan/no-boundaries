@@ -638,13 +638,15 @@ html {
 }
 
 .meet-the-team-section-about-me {
-  height: 198px;
+  min-height: 198px;
   padding-left: 0px;
   padding-right: 20px;
   color: #3c3d40;
   border-top: 2px solid #3c3d40;
   background-color: #f2f2f2;
 }
+
+
 
 .meet-the-team-question {
   font-weight: 800;
