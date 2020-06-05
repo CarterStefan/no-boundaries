@@ -334,7 +334,7 @@ html {
   margin-bottom: 5px;
 }
 
-/* ------------------------------------------------------ DID YOU KNOW SECTION - HOMEPAGE  */
+
 
 /* ------------------------------------------------------ WELL BEING SECTION - HOMEPAGE */
 
@@ -404,6 +404,16 @@ html {
   text-align: center;
   padding: 1em;
 }
+
+.our-active-ethos-title {
+  color: #43aed9;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Used same code as jumbotron on homepage for the image background - Taken from css tricks with code institute tutorial */
 
 .method-image-container {
   padding: 5px 0px;
@@ -693,6 +703,38 @@ html {
   padding: 1em;
 }
 
+.the-facts-cta {
+  color: #3c3d40;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: bold;
+  min-height: 50px;
+  padding: 15px;
+}
+
+.the-facts-cta-link {
+  color: #f2f2f2;
+  background-color: #43aed9;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.the-facts-cta-link:hover {
+  text-decoration: none;
+  color: #43aed9;
+  background-color: #3c3d40;
+  font-weight: 700;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  padding: 5px;
+  white-space: nowrap;
+}
+
 .fact-box {
   position: relative;
   border: 1px solid #3c3d40;
@@ -768,37 +810,7 @@ html {
   }
 }
 
-.the-facts-cta {
-  color: #3c3d40;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  line-height: 30px;
-  font-weight: bold;
-  min-height: 50px;
-  padding: 15px;
-}
 
-.the-facts-cta-link {
-  color: #f2f2f2;
-  background-color: #43aed9;
-  text-decoration: none;
-  font-weight: 700;
-  border-radius: 20px;
-  padding: 5px;
-  white-space: nowrap;
-}
-
-.the-facts-cta-link:hover {
-  text-decoration: none;
-  color: #43aed9;
-  background-color: #3c3d40;
-  font-weight: 700;
-  border-radius: 20px;
-  transition-duration: 0.5s;
-  padding: 5px;
-  white-space: nowrap;
-}
 
 /* ------------------------------------------------------ CONTACT US PAGE */
 
