@@ -139,6 +139,22 @@ A contact form was made on the last page. This was so that the users of the site
 
 ![readme-contact](https://user-images.githubusercontent.com/64138643/83132376-38d43480-a0d9-11ea-8dd5-a701e9b0c2e3.PNG)
 
+## Changes to the page
+
+After a mid project call with my mentor, and following his advice, it was clear that the page lacked width and I should be more confident in using the whole width of the page. It also made me realise that the page was quite plain, and lacked navigation throughout the site, apart from the top nav bar.
+
+So following the call, I added more images, more links, and more width across the site:
+
+![readme-homepage-new](https://user-images.githubusercontent.com/64138643/83863001-a0faca00-a71a-11ea-9e81-22ee4109ce0a.PNG)
+![readme-homepage-new-two](https://user-images.githubusercontent.com/64138643/83863003-a1936080-a71a-11ea-96e5-b2730095e034.PNG)
+![readme-about-us-new](https://user-images.githubusercontent.com/64138643/83862995-9fc99d00-a71a-11ea-8481-129675104975.PNG)
+![readme-about-us-new-two](https://user-images.githubusercontent.com/64138643/83862999-a0623380-a71a-11ea-91c7-2d4a616db3e7.PNG)
+
+I also made the Meet us page easier on the eye with less red across the page:
+![readme-meet-the-team-new](https://user-images.githubusercontent.com/64138643/83863008-a22bf700-a71a-11ea-822a-3ee6822f01d1.PNG)
+
+
+
 All the pages are linked through the top nav bar, and can easily be navigated throughout the site. It is consistent across all pages so the user can easily navigated between the pages at any point. A consistent look also aids with the user being able to go from page to page with ease.
 
 ### Manual Testing
