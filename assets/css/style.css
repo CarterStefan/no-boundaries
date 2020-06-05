@@ -147,7 +147,7 @@ html {
 /* Code taken from css-tricks with help from Hero Image lesson on code institue */
 .main-image-container {
   padding: 5px 0px;
-  background: url("../images/ball_two.jpeg") no-repeat center center;
+  background: url("../images/cricket_bowler_bw.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -155,6 +155,7 @@ html {
   width: 100%;
   min-height: 600px;
 }
+
 
 .jumbotron {
   background: transparent;
@@ -168,16 +169,16 @@ html {
 
 .jumbotron-paragraph-small {
   text-align: center;
-  font-size: 200%;
-  color: #f2f2f2;
+  font-size: 250%;
+  color: #43aed9;
   font-weight: 900;
 }
 
 .jumbotron-paragraph-large {
   text-align: center;
-  color: #f2f2f2;
+  color: #43aed9;
   font-weight: 900;
-  font-size: 300%;
+  font-size: 400%;
 }
 
 .homepage-tagline {
@@ -226,7 +227,16 @@ html {
   font-weight: bold;
   background-color: #43aed9;
   min-height: 50px;
-  padding: 15px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.lightbulb-icon{
+  color: #3c3d40;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  font-size: 300%;
 }
 
 .did-you-know-title {
@@ -282,7 +292,7 @@ html {
 
 @media (max-width: 767px) {
   .introduction-section {
-    height: 250px;
+    height: 280px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 20px;
@@ -338,9 +348,22 @@ html {
 
 /* ------------------------------------------------------ WELL BEING SECTION - HOMEPAGE */
 
+ 
+.wellbeing-image-container {
+  padding: 5px 0px;
+  background: url("../images/ball_two_bw.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+}
+
+
 .wellbeing-title {
-  color: #3c3d40;
-  font-weight: 700;
+  color: #f2f2f2;
+  font-weight: 900;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1em;
@@ -349,7 +372,7 @@ html {
 
 .wellbeing-text {
   text-align: center;
-  color: #3c3d40;
+  color: #f2f2f2;
   font-weight: bold;
   font-size: 150%;
   margin-bottom: 50px;
@@ -364,7 +387,7 @@ html {
 }
 
 .wellbeing-cta {
-  color: #3c3d40;
+  color: #f2f2f2;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -386,8 +409,8 @@ html {
 
 .wellbeing-cta-link:hover {
   text-decoration: none;
-  color: #f2f2f2;
-  background-color: #3c3d40;
+  color: #d95252;
+  background-color: #f2f2f2;
   font-weight: 700;
   border-radius: 20px;
   transition-duration: 0.5s;
