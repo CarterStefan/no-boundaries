@@ -267,6 +267,11 @@ html {
   white-space: nowrap;
 }
 
+.did-you-know-text{
+    padding:30px;
+
+}
+
 
 /* ------------------------------------------------------ INTRODUCTION SECTION - HOMEPAGE */
 
@@ -404,7 +409,8 @@ html {
   text-decoration: none;
   font-weight: 700;
   border-radius: 20px;
-  padding: 5px;
+  padding: 20px;
+  font-size: 120%;
 }
 
 .wellbeing-cta-link:hover {
@@ -414,7 +420,8 @@ html {
   font-weight: 700;
   border-radius: 20px;
   transition-duration: 0.5s;
-  padding: 5px;
+  padding: 20px;
+  font-size: 120%;
 }
 
 /* ------------------------------------------------------ ABOUT US PAGE */
@@ -482,11 +489,10 @@ html {
 
 .new-about-us-box {
   border-radius: 20px;
-  border: 1px solid rgba(67, 174, 216, 0.8);
   background-color: rgba(67, 174, 216, 0.8);
   color: #f2f2f2;
   font-weight: bold;
-  padding: 20px;
+  padding: 40px;
   line-height: 2em;
   margin-top: 0px;
   margin-left: 20px;
@@ -583,6 +589,40 @@ html {
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.active-ethos-cta {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: bold;
+  min-height: 50px;
+  padding: 15px;
+  width: 100%;
+}
+
+.active-ethos-cta-link {
+  color: #f2f2f2;
+  background-color: #3c3d40;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 100%;
+}
+
+.active-ethos-cta-link:hover {
+  text-decoration: none;
+  color: #3c3d40;
+  background-color: #f2f2f2;
+  font-weight: 700;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  padding: 20px;
+  font-size: 100%;
+  white-space: nowrap;
 }
 
 /* ------------------------------------------------------ MEET THE TEAM PAGE */
