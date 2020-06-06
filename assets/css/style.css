@@ -737,28 +737,33 @@ html {
   background-color: #d95252;
   min-height: 50px;
   padding: 15px;
+  margin-top: 20px;
 }
 
 .meet-the-team-link {
-  color: #d95252;
-  background-color: #f2f2f2;
+  color: #f2f2f2;
+  background-color: #3c3d40;
   text-decoration: none;
   font-weight: 700;
   border-radius: 20px;
-  padding: 5px;
-  white-space: nowrap;
+  padding: 20px;
+  font-size: 100%;
 }
 
 .meet-the-team-link:hover {
   text-decoration: none;
-  color: #f2f2f2;
-  background-color: #3c3d40;
+  color: #3c3d40;
+  background-color: #f2f2f2;
   font-weight: 700;
   border-radius: 20px;
   transition-duration: 0.5s;
-  padding: 5px;
+  padding: 20px;
+  font-size: 100%;
   white-space: nowrap;
 }
+
+
+
 /* ------------------------------------------------------ THE FACTS PAGE */
 
 .the-facts-title {
